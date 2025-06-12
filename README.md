@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @Soala7
 - 👀 I’m interested in programming, problem solving, chess, forex and crypto
-- 🌱 I’m currently learning beginner Javascript and advance python
+- 🌱 I’m currently learning beginner Javascript and Python
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me in Nigeria use +234 in number is -9039857410
 - 😄 Pronouns: I'm a male
