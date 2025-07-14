@@ -4,8 +4,8 @@ import os
 
 # Default scores if file is missing or empty
 default_scores = {
-    "soala": 3.5,
-    "desmond": 3.8
+    "soala": 17.7,
+    "you": 22.5
 }
 
 csv_filename = 'time.csv'
