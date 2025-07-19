@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quote Generator</title>
+    <link rel="stylesheet" href="quote.css" />
+  </head>
+  <body>
+    <div class="main">
+      <h1>Quote Generator</h1>
+      <div class="container">
+        <div class="quote">
+          <span id="quote">your quote will show here</span>
+        </div>
+        <div class="author">
+          <span id="author"></span>
+        </div>
+      </div>
+      <div class="category">
+        <select id="category">
+          <option value="Inspirational">Inspirational</option>
+          <option value="success">success</option>
+          <option value="love">love</option>
+          <option value="wisdom">wisdom</option>
+        </select>
+      </div>
+      <div class="button">
+        <button onclick="getQuote()">New Quote</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
