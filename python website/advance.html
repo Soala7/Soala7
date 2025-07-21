@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Comprehensive guide to advanced Python programming concepts and techniques">
+  <title>Advanced Python Programming Guide</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="advanced.css" />
+</head>
+<body>
+  <nav>
+    <a href="../ai-assistant/index.html"><i class="fas fa-robot"></i> AI Assistant</a>
+    <a href="../vscode-info/index.html"><i class="fas fa-code"></i> VS Code Info</a>
+    <a href="#decorators"><i class="fas fa-magic"></i> Decorators</a>
+    <a href="#generators"><i class="fas fa-cogs"></i> Generators</a>
+    <a href="#context-managers"><i class="fas fa-door-open"></i> Context Managers</a>
+    <a href="#metaclasses"><i class="fas fa-cube"></i> Metaclasses</a>
+    <a href="#concurrency"><i class="fas fa-tasks"></i> Concurrency</a>
+  </nav>
+
+  <h1><i class="fab fa-python"></i> Advanced Python Programming Guide</h1>
+  
+  <section id="introduction" class="topic-section">
+    <h2>Introduction to Advanced Python</h2>
+    <p>We will love to congradulate you for coming this far </p>
+    <p>Python is a versatile language that goes far beyond basic syntax. This guide covers advanced concepts that separate intermediate programmers from Python experts. Mastering these topics will enable you to write more efficient, maintainable, and Pythonic code.</p>
+    <p>Whether you're building web applications, data analysis tools, or automation scripts, understanding these advanced features will enhance your programming skills and open up new possibilities.</p>  
+    
+    <div class="best-practice">
+      <h3>How to Use This Guide</h3>
+      <ul>
+        <li>Click on any section header to collapse/expand its content</li>
+        <li>Use the copy button <i class="fas fa-copy"></i> on code blocks to copy examples</li>
+        <li>Click navigation links to jump to specific sections</li>
+        <li>Use the print button at bottom-left to save as PDF</li>
+      </ul>
+    </div>
+  </section>
+  
+  <section id="decorators" class="topic-section">
+    <h2>Decorators</h2>
+    <p>Decorators are a powerful tool in Python that allow you to modify the behavior of functions or classes without changing their source code.</p>
+    <p>They are often used for logging, access control, memoization, and more. Decorators can be applied to functions, methods, or entire classes.</p>  
+    <h3>Creating a Simple Decorator</h3>
+    
+    <div class="code-block">
+      <pre><code>def my_decorator(func):
+    def wrapper():
+        print("Something is happening before the function is called.")
+        func()
+        print("Something is happening after the function is called.")
+    return wrapper
+
+@my_decorator
+def say_hello():
+    print("Hello!")
+
+say_hello()</code></pre>
+    </div>
+    
+    <div class="best-practice">
+      <h3>Best Practices</h3>
+      <ul>
+        <li>Use <code>functools.wraps</code> to preserve the original function's metadata</li>
+        <li>Keep decorators simple and focused on a single responsibility</li>
+        <li>Consider using classes as decorators for more complex scenarios</li>
+      </ul>
+    </div>
+    
+    <div class="example">
+      <h3>Real-world Use Cases</h3>
+      <ul>
+        <li>Logging function execution</li>
+        <li>Timing function execution</li>
+        <li>Authentication and authorization</li>
+        <li>Memoization (caching function results)</li>
+      </ul>
+    </div>
+    
+    <table>
+      <thead>
+        <tr>
+          <th>Decorator</th>
+          <th>Purpose</th>
+          <th>Standard Library Example</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><code>@property</code></td>
+          <td>Define getter methods</td>
+          <td>Built-in</td>
+        </tr>
+        <tr>
+          <td><code>@classmethod</code></td>
+          <td>Define class methods</td>
+          <td>Built-in</td>
+        </tr>
+        <tr>
+          <td><code>@staticmethod</code></td>
+          <td>Define static methods</td>
+          <td>Built-in</td>
+        </tr>
+        <tr>
+          <td><code>@lru_cache</code></td>
+          <td>Memoization</td>
+          <td>functools</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+  
+  <section id="generators" class="topic-section">
+    <h2>Generators and Iterators</h2>
+    <p>Generators provide memory-efficient ways to handle sequences of data by producing items one at a time rather than storing everything in memory.</p>
+    <p>They are defined using the <code>yield</code> statement, which allows the function to return a value and pause its execution, resuming later from where it left off.</p> 
+    <h3>Creating a Simple Generator</h3>
+    
+    <div class="code-block">
+      <pre><code>def fibonacci(limit):
+    a, b = 0, 1
+    while a < limit:
+        yield a
+        a, b = b, a + b
+
+for num in fibonacci(100):
+    print(num)</code></pre>
+    </div>
+    
+    <div class="warning">
+      <h3>Performance Considerations</h3>
+      <p>Generators can significantly reduce memory usage for large datasets, but they are single-use. If you need to iterate multiple times, consider converting to a list or implementing a custom iterable.</p>
+    </div>
+    
+    <h3>Advanced Generator Features</h3>
+    <p>Generators can also be used for more complex scenarios:</p>
+    <ul>
+      <li><strong>Generator expressions:</strong> Similar to list comprehensions but with parentheses: <code>(x*2 for x in range(10))</code></li>
+      <li><strong>send() method:</strong> Allows two-way communication with a generator</li>
+      <li><strong>yield from:</strong> Delegates to subgenerators (PEP 380)</li>
+    </ul>
+  </section>
+  
+  <section id="context-managers" class="topic-section">
+    <h2>Context Managers</h2>
+    <p>Context managers simplify resource management by automatically handling setup and teardown operations, even if exceptions occur.</p>
+    <p>They are commonly used for file operations, database connections, and other resources that require explicit cleanup.</p>
+    <h3>Creating a Context Manager</h3>
+    
+    <div class="code-block">
+      <pre><code># Class-based context manager
+class DatabaseConnection:
+    def __enter__(self):
+        self.conn = connect_to_database()
+        return self.conn
+        
+    def __exit__(self, exc_type, exc_val, exc_tb):
+        self.conn.close()
+        
+# Using the context manager
+with DatabaseConnection() as db:
+    db.execute_query("SELECT * FROM users")</code></pre>
+    </div>
+    
+    <div class="code-block">
+      <pre><code># Function-based context manager using contextlib
+from contextlib import contextmanager
+
+@contextmanager
+def temporary_file():
+    temp = create_temp_file()
+    try:
+        yield temp
+    finally:
+        temp.cleanup()</code></pre>
+    </div>
+    
+    <div class="best-practice">
+      <h3>When to Use Context Managers</h3>
+      <ul>
+        <li>File operations</li>
+        <li>Database connections</li>
+        <li>Lock acquisition/release</li>
+        <li>Temporary changes to system state</li>
+      </ul>
+    </div>
+  </section>
+  
+  <section id="metaclasses" class="topic-section">
+    <h2>Metaclasses</h2>
+    <p>Metaclasses are the "classes of classes" that allow you to control class creation in Python.</p>
+    <p>They enable you to customize class behavior, enforce coding standards, and automatically register classes.</p>
+    <h3>Creating a Simple Metaclass</h3>
+    
+    <div class="code-block">
+      <pre><code>class Meta(type):
+    def __new__(cls, name, bases, namespace):
+        namespace['created_by'] = 'meta'
+        return super().__new__(cls, name, bases, namespace)
+
+class MyClass(metaclass=Meta):
+    pass
+    
+print(MyClass.created_by)  # Output: 'meta'</code></pre>
+    </div>
+    
+    <div class="warning">
+      <h3>Use With Caution</h3>
+      <p>Metaclasses can make code more complex and harder to understand. Consider using class decorators or simpler approaches before resorting to metaclasses.</p>
+    </div>
+    
+    <div class="example">
+      <h3>Practical Applications</h3>
+      <ul>
+        <li>API development (e.g., Django models)</li>
+        <li>Enforcing coding standards</li>
+        <li>Automatic registration of subclasses</li>
+      </ul>
+    </div>
+  </section>
+  
+  <section id="concurrency" class="topic-section">
+    <h2>Concurrency and Parallelism</h2>
+    <p>Python offers several approaches for concurrent and parallel execution:</p>
+    
+    <h3>Threading</h3>
+    <div class="code-block">
+      <pre><code>import threading
+
+def worker(num):
+    print(f'Worker: {num}')
+
+threads = []
+for i in range(5):
+    t = threading.Thread(target=worker, args=(i,))
+    threads.append(t)
+    t.start()</code></pre>
+    </div>
+    
+    <h3>Asyncio</h3>
+    <div class="code-block">
+      <pre><code>import asyncio
+
+async def main():
+    print('Hello')
+    await asyncio.sleep(1)
+    print('World')
+
+asyncio.run(main())</code></pre>
+    </div>
+    
+    <div class="best-practice">
+      <h3>Choosing the Right Approach</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Problem Type</th>
+            <th>Solution</th>
+            <th>Library</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>I/O-bound</td>
+            <td>asyncio or threading</td>
+            <td>asyncio, threading</td>
+          </tr>
+          <tr>
+            <td>CPU-bound</td>
+            <td>multiprocessing</td>
+            <td>multiprocessing</td>
+          </tr>
+          <tr>
+            <td>Mixed workloads</td>
+            <td>concurrent.futures</td>
+            <td>concurrent.futures</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+  
+  <section id="resources" class="topic-section">
+    <h2>Additional Resources</h2>
+    <ul>
+      <li><a href="https://docs.python.org/3/" target="_blank">Official Python Documentation</a></li>
+      <li><a href="https://realpython.com/" target="_blank">Real Python Tutorials</a></li>
+      <li><a href="https://www.python.org/dev/peps/" target="_blank">Python Enhancement Proposals (PEPs)</a></li>
+      <li><a href="https://github.com/vinta/awesome-python" target="_blank">Awesome Python (GitHub)</a></li>
+    </ul>
+  </section>
+  
+  <footer>
+    <p>&copy; 2023 Advanced Python Guide | Created with <i class="fas fa-heart" style="color:red;"></i> for Python enthusiasts</p>
+    <p>For more resources, visit the <a href="https://docs.python.org/3/" target="_blank">official Python documentation</a></p>
+    <p>Follow us on <a href="https://twitter.com/AmaceNiga31850" target="_blank">Twitter</a>
+  </footer>
+
+  <script src="advanced.js"></script>
+</body>
+</html>

@@ -1,0 +1,351 @@
+/* Base Styles */
+:root {
+    --primary-color: #3776ab;
+    --secondary-color: #ffd43b;
+    --dark-color: #1e1e1e;
+    --light-color: #f8f9fa;
+    --success-color: #28a745;
+    --text-color: #333;
+    --text-light: #6c757d;
+    --border-radius: 4px;
+    --box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    --transition: all 0.3s ease;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: var(--text-color);
+    background-color: var(--light-color);
+}
+
+h1, h2, h3, h4 {
+    margin-bottom: 1rem;
+    line-height: 1.2;
+    color: var(--dark-color);
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+a:hover {
+    color: #2a5a8a;
+    text-decoration: underline;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Layout */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+/* Header Styles */
+.main-header {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 2rem 0;
+}
+
+.nav-header {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.nav-title h1 {
+    color: white;
+    font-size: 2.5rem;
+}
+
+.tagline {
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+/* Dropdown Navigation */
+.dropdown-container {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-left: 1130px;
+}
+
+.dropdown-btn {
+    background-color: var(--secondary-color);
+    color: var(--dark-color);
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    transition: var(--transition);
+    padding-right: 20px;
+}
+
+.dropdown-btn:hover {
+    background-color: #e6c62f;
+}
+
+.dropdown-btn[aria-expanded="true"] {
+    background-color: #e6c62f;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 200px;
+    box-shadow: var(--box-shadow);
+    border-radius: var(--border-radius);
+    z-index: 100;
+    right: 0;
+}
+
+.dropdown-content.show {
+    display: block;
+}
+
+.dropdown-content li {
+    list-style: none;
+}
+
+.dropdown-content a {
+    color: var(--dark-color);
+    padding: 0.75rem 1rem;
+    display: block;
+    border-bottom: 1px solid #eee;
+}
+
+.dropdown-content a:hover {
+    background-color: #f5f5f5;
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+/* Course Intro */
+.course-intro {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 2rem;
+    border-radius: var(--border-radius);
+    margin-top: 1rem;
+    color: var(--dark-color);
+}
+
+.course-intro h2 {
+    color: var(--primary-color);
+}
+
+/* Content Sections */
+.main-content {
+    padding: 3rem 0;
+}
+
+.content-section {
+    margin-bottom: 3rem;
+    padding: 2rem;
+    background-color: white;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+}
+
+.content-section h2 {
+    color: var(--primary-color);
+    border-bottom: 2px solid var(--secondary-color);
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Lists */
+.feature-list,
+.use-cases,
+.version-differences {
+    margin-left: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.feature-list li,
+.use-cases li,
+.version-differences li {
+    margin-bottom: 0.5rem;
+}
+
+.use-cases li strong,
+.version-differences li strong {
+    color: var(--primary-color);
+}
+
+/* Skill Levels */
+.skill-levels {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+.skill-btn {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: var(--border-radius);
+    transition: var(--transition);
+    text-align: center;
+}
+
+.skill-btn:hover {
+    background-color: #2a5a8a;
+    text-decoration: none;
+    transform: translateY(-2px);
+}
+
+/* Resources Grid */
+.resource-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.resource-card {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    transition: var(--transition);
+}
+
+.resource-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.resource-card h3 {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+.resource-card ul {
+    list-style: none;
+}
+
+.resource-card li {
+    margin-bottom: 0.5rem;
+}
+
+/* Footer */
+.main-footer {
+    background-color: var(--dark-color);
+    color: white;
+    padding: 3rem 0 1rem;
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.about-section h2,
+.contact-section h2 {
+    color: var(--secondary-color);
+    margin-bottom: 1.5rem;
+}
+
+.contact-list {
+    list-style: none;
+}
+
+.contact-list li {
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.contact-list a {
+    color: var(--secondary-color);
+}
+
+.contact-list a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 0.5rem;
+    background-color: var(--secondary-color);
+}
+
+.copyright {
+    text-align: center;
+    padding-top: 1.5rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    color: var(--text-light);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .nav-header {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .nav-title h1 {
+        font-size: 2rem;
+    }
+    
+    .dropdown-container {
+        width: 100%;
+    }
+    
+    .dropdown-content {
+        width: 100%;
+    }
+    
+    .skill-levels {
+        flex-direction: column;
+    }
+    
+    .resource-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Utility Classes */
+.hidden {
+    display: none;
+}
+
+.recommendation {
+    font-style: italic;
+    color: var(--text-light);
+    border-left: 3px solid var(--secondary-color);
+    padding-left: 1rem;
+    margin-top: 1rem;
+}

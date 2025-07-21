@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Comprehensive beginner's guide to Python programming">
+    <link rel="stylesheet" href="beginner.css">
+    <title>Python Beginner Class</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        .section { padding: 20px; }
+        .code-editor { margin-top: 20px; }
+        .code-input { width: 100%; height: 100px; padding: 10px; font-family: monospace; }
+        .run-button { margin-top: 10px; padding: 10px 15px; cursor: pointer; }
+        .output-panel { margin-top: 10px; border: 1px solid #ccc; padding: 10px; }
+        .output-content { color: green; }
+        .footer { background: #222; color: white; text-align: center; padding: 20px; margin-top: 40px; }
+        nav { background: #333; padding: 10px; }
+        nav button { color: white; background: transparent; border: none; cursor: pointer; }
+        nav ul { display: none; list-style: none; padding: 0; }
+        nav ul.active { display: block; }
+        nav li a { color: white; text-decoration: none; display: block; padding: 5px 0; }
+    </style>
+</head>
+<body>
+    <header>
+        <nav id="navbar" class="navbar">
+            <div class="navbar-header">
+                <h1>Python Beginner Class</h1>
+                <p>Welcome to our Python beginner class where we'll teach you everything you need to understand and write your own Python code</p>
+                <button id="dropdown-btn" class="dropdown-btn" aria-expanded="false" aria-controls="nav-menu">Menu</button>
+            </div>
+            <ul id="nav-menu" class="nav-menu">
+                <li><a href="#intro">Introduction</a></li>
+                <li><a href="#variables">Variables</a></li>
+                <li><a href="#datatypes">Data Types</a></li>
+                <li><a href="#conditional">Conditionals</a></li>
+                <li><a href="#lists">Lists</a></li>
+                <li><a href="#tuples">Tuples</a></li>
+                <li><a href="#sets">Sets</a></li>
+                <li><a href="#dictionary">Dictionary</a></li>
+                <li><a href="#loops">Loops</a></li>
+                <li><a href="#functions">Functions</a></li>
+                <li><a href="#extensions">Extensions</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section id="intro" class="section">
+            <h2>Introduction to Python</h2>
+            <p>Python is a high-level, interpreted programming language known for its readability and simplicity. It is widely used in various fields such as web development, data analysis, artificial intelligence, and more.</p>
+            <p>In this beginner class, we will cover the fundamental concepts of Python programming, including data types, variables, control structures, and functions.</p>
+            <p>By the end of this class, you will have a solid understanding of Python basics and be able to write simple programs.</p>
+            <p>Let's get started!</p>
+
+            <article class="concept">
+                <h3>Strings</h3>
+                <p>In Python, a string is a sequence of characters enclosed in quotes. Strings can be single-quoted (' '), double-quoted (" "), or triple-quoted (''' ''' or """ """). They are used to represent text data.</p>
+                <p>Example:</p>
+                <pre><code>greeting = "Hello, World!"</code></pre>
+                <figure>
+                    <img src="img/c.png" alt="Example of a string in Python">
+                    <figcaption>String example in Python</figcaption>
+                </figure>
+                <p>In this example, the variable <code>greeting</code> is assigned the string value "Hello, World!".</p>
+            </article>
+
+            <article class="concept">
+                <h3>Integers</h3>
+                <p>In Python, an integer (int) is a whole number without a decimal point. It can be positive, negative, or zero. Integers are used for counting and ordering.</p>
+                <p>Example:</p>
+                <pre><code>x = 5</code></pre>
+                <figure>
+                    <img src="img/b.png" alt="Example of an integer in Python">
+                    <figcaption>Integer example in Python</figcaption>
+                </figure>
+                <p>In this example, x is assigned the integer value of 5.</p>
+            </article>
+
+            <article class="concept">
+                <h3>Floats</h3>
+                <p>In Python, a float is a number that has a decimal point. It is used to represent real numbers and can be positive or negative.</p>
+                <p>Example:</p>
+                <pre><code>pi = 3.14</code></pre>
+                <figure>
+                    <img src="img/d.png" alt="Example of a float in Python">
+                    <figcaption>Float example in Python</figcaption>
+                </figure>
+                <p>In this example, the variable <code>pi</code> is assigned the float value of 3.14.</p>
+            </article>
+
+            <article class="concept">
+                <h3>Booleans</h3>   
+                <p>In Python, a boolean is a data type that can have one of two values: True or False. Booleans are often used in conditional statements to control the flow of a program.</p>
+                <p>Example:</p>
+                <pre><code>is_active = True</code></pre>
+                <figure>
+                    <img src="img/e.png" alt="Example of a boolean in Python">
+                    <figcaption>Boolean example in Python</figcaption>
+                </figure>
+                <p>In this example, the variable <code>is_active</code> is assigned the boolean value True.</p>
+            </article>
+            <p>Now that you have an idea about these basic concepts, let's talk about variables.</p>
+        </section>
+
+        <section id="variables" class="section">
+            <h2>Variables</h2>
+            <p>In Python, a variable is a name that refers to a value. Variables are used to store data that can be used later in the program. You can create a variable by assigning a value to it using the equals sign (=).</p>
+            <p>Example:</p>
+            <pre><code>age = 25
+name = "Alice"
+single = True</code></pre>
+            <figure>
+                <img src="img/f.png" alt="Example of variables in Python">
+                <figcaption>Variable examples in Python</figcaption>
+            </figure>
+            <p>In this example, the variable <code>name</code> is assigned the string value "Alice". You can use this variable later in your program to refer to the value it holds.</p>
+            <p>Variables can hold different types of data, such as strings, integers, floats, and booleans. You can also change the value of a variable at any time by reassigning it.</p>
+            
+            <article class="concept">
+                <h3>User Input</h3>
+                <p>Variables can also be input by a user using the <code>input</code> function:</p>
+                <pre><code>age = input("Enter your age: ")</code></pre>
+                <p>In this example, the user is prompted to enter their age, and the input is stored in the variable <code>age</code>. The input function returns a string, so if you want to use it as an integer, you need to convert it using the <code>int()</code> function.</p>
+                <pre><code>age = int(input("Enter your age: "))</code></pre>
+                <p>In this example, the input is converted to an integer before being assigned to the variable <code>age</code>.</p>
+            </article>
+
+            <article class="concept">
+                <h3>Displaying Variables</h3>
+                <p>To display the value of a variable, you can use the <code>print()</code> function:</p>
+                <pre><code>print(f"Your age is {age}")</code></pre>
+                <p>If you wish to show a variable you need to use the <code>print</code> function and it will show in the Python terminal.</p>
+                <div class="note">
+                    <h4>Note:</h4>
+                    <p>The "f" before the string in the <code>print</code> function creates an f-string, which allows you to embed expressions inside curly braces <code>{}</code> that will be replaced with their values.</p>
+                </div>
+            </article>
+        </section>
+
+        <section id="datatypes" class="section">
+            <h2>Data Types</h2>
+            <p>Python has several built-in data types that are used to represent different kinds of data. The most common data types are:</p>
+            <ul class="data-types">
+                <li><strong>String:</strong> A sequence of characters enclosed in quotes.</li>
+                <li><strong>Integer:</strong> A whole number without a decimal point.</li>
+                <li><strong>Float:</strong> A number with a decimal point.</li>
+                <li><strong>Boolean:</strong> A value that can be either True or False.</li>
+            </ul>
+            <p>You can check the type of a variable using the <code>type()</code> function.</p>
+            <pre><code>print(type(age))  # Output: &lt;class 'int'&gt;</code></pre>
+            
+            <article class="concept">
+                <h3>Structured Data Types</h3>
+                <p>Data types can be classified based on their structure including:</p>
+                <ul class="data-types">
+                    <li><strong>List:</strong> An ordered collection of items that can be changed. Uses square brackets <code>[]</code></li>
+                    <li><strong>Tuple:</strong> An ordered collection of items that cannot be changed. Uses parentheses <code>()</code></li>
+                    <li><strong>Set:</strong> An unordered collection of unique items. Uses curly braces <code>{}</code></li>
+                    <li><strong>Dictionary:</strong> A collection of key-value pairs. Uses <code>{key: value}</code> syntax</li>
+                </ul>
+                <p>These data types are used to store and manipulate data in Python programs. Understanding data types is essential for writing effective Python code.</p>
+                <p>Each data type has a specific set of operations you can perform, like append, del, keys, union and so on.</p>
+            </article>
+
+            <article class="concept">
+                <h3>Examples of Data Type Operations</h3>
+                <p>For example, a list can be appended to using the <code>append()</code> method, while a dictionary can be accessed using its keys.</p>
+                <pre><code>my_list = [1, 2, 3]
+my_list.append(4)  # Adds 4 to the end of the list
+my_dict = {'name': 'Alice', 'age': 25}
+print(my_dict['name'])  # Output: Alice</code></pre>  
+                <p>In this example, we create a list and append a new item to it, and we create a dictionary and access a value using its key.</p>
+                
+                <pre><code>my_set = {1, 2, 3}
+my_set.add(4)  # Adds 4 to the set
+print(my_set)  # Output: {1, 2, 3, 4}</code></pre>
+                <p>In this example, we create a set and add a new item to it. Sets are useful for storing unique items and performing set operations like union and intersection.</p>
+                <p>Understanding these data types and their methods is crucial for effective programming in Python.</p>
+            </article>
+            
+            <p class="resource-link">For more in-depth information, visit <a href="https://www.w3schools.com/python/python_datatypes.asp" target="_blank">W3Schools Python Data Types</a>.</p>
+        </section>
+
+        <section id="conditional" class="section">
+            <h2>Conditional Statements</h2>
+            <p>Conditional statements in Python allow you to execute different blocks of code based on certain conditions. The most common conditional statements are <code>if</code>, <code>elif</code>, and <code>else</code>.</p>
+            <p>Example:</p>
+            <pre><code>if age >= 18:
+    print("You are an adult.")
+elif age >= 13:
+    print("You are a teenager.")
+else:
+    print("You are a child.")</code></pre>
+            <figure>
+                <img src="img/g.png" alt="Example of conditional statements in Python">
+                <figcaption>Conditional statement example in Python</figcaption>
+            </figure>
+            <p>In this example, we check the value of the variable <code>age</code>. If it is greater than or equal to 18, we print "You are an adult." If it is between 13 and 17, we print "You are a teenager." Otherwise, we print "You are a child."</p>
+            <p>Conditional statements are essential for controlling the flow of a program and making decisions based on user input or other conditions.</p>
+            
+            <article class="concept">
+                <h3>Logical Operators</h3>
+                <p>In addition to <code>if</code>, <code>elif</code>, and <code>else</code>, Python also supports logical operators like <code>and</code>, <code>or</code>, and <code>not</code> to combine conditions.</p>
+                <pre><code>if age >= 18 and is_student:
+    print("You are an adult student.")</code></pre>
+                <p>In this example, we check if the variable <code>age</code> is greater than or equal to 18 and if the variable <code>is_student</code> is True. If both conditions are met, we print "You are an adult student."</p>
+                <p>Conditional statements are a powerful feature of Python that allows you to create dynamic and responsive programs. They enable you to handle different scenarios and make decisions based on user input or other conditions.</p>
+            </article>
+        </section>
+
+        <section id="lists" class="section">
+            <h2>Lists</h2>
+            <p>In Python, a list is an ordered collection of items that can be changed. Lists are defined using square brackets <code>[]</code> and can contain items of different data types.</p>
+            <p>Example:</p>
+            <pre><code>my_list = [1, 2, 3, "apple", "banana"]</code></pre>
+            <figure>
+                <img src="img/h.png" alt="Example of a list in Python">
+                <figcaption>List example in Python</figcaption>
+            </figure>
+            <p>In this example, we create a list called <code>my_list</code> that contains integers and strings. Lists are versatile and can be used to store collections of related data.</p>
+            
+            <article class="concept">
+                <h3>Accessing and Modifying Lists</h3>
+                <p>You can access individual items in a list using their index, which starts at 0:</p>
+                <pre><code>print(my_list[0])  # Output: 1</code></pre>
+                <p>You can also modify items in a list by assigning a new value to a specific index:</p>
+                <pre><code>my_list[1] = "orange"</code></pre>
+                <p>This changes the second item in the list from 2 to "orange".</p>
+            </article>
+
+            <article class="concept">
+                <h3>List Methods</h3>
+                <p>Lists have many built-in methods for manipulating data, such as adding or removing items, sorting, and reversing the order of items.</p>
+                <pre><code>my_list.append("grape")  # Adds "grape" to the end of the list
+my_list.remove("apple")  # Removes "apple" from the list
+my_list.sort()  # Sorts the list in ascending order</code></pre>
+                <p>Lists are a fundamental data structure in Python and are widely used for storing and manipulating collections of data.</p>   
+            </article>
+            
+            <p class="resource-link">For more in-depth information, visit <a href="https://www.w3schools.com/python/python_lists.asp" target="_blank">W3Schools Python Lists</a>.</p>
+        </section>
+
+        <section id="tuples" class="section">
+            <h2>Tuples</h2>
+            <p>In Python, a tuple is an ordered collection of items that cannot be changed. Tuples are defined using parentheses <code>()</code> and can contain items of different data types.</p>
+            <p>Example:</p>
+            <pre><code>my_tuple = (1, 2, 3, "apple", "banana")</code></pre>
+            <figure>
+                <img src="img/i.png" alt="Example of a tuple in Python">
+                <figcaption>Tuple example in Python</figcaption>
+            </figure>
+            <p>In this example, we create a tuple called <code>my_tuple</code> that contains integers and strings. Tuples are similar to lists but are immutable, meaning their items cannot be changed after creation.</p>
+            
+            <article class="concept">
+                <h3>Accessing Tuples</h3>
+                <p>You can access individual items in a tuple using their index, just like with lists:</p>
+                <pre><code>print(my_tuple[0])  # Output: 1</code></pre>
+                <p>However, you cannot modify items in a tuple:</p>
+                <pre><code>my_tuple[1] = "orange"  # This will raise an error</code></pre>
+            </article>
+
+            <article class="concept">
+                <h3>Tuple Uses</h3>
+                <p>Tuples have fewer built-in methods compared to lists, but they are often used to group related data together or to return multiple values from a function.</p>
+                <p>Tuples are also used for unpacking values:</p>
+                <pre><code>x, y = (10, 20)</code></pre>
+                <p>This assigns the value 10 to x and 20 to y.</p>
+                <p>Tuples are a useful data structure in Python when you need to store a fixed collection of items that should not be modified.</p>
+            </article>
+            
+            <p class="resource-link">For more in-depth information, visit <a href="https://www.w3schools.com/python/python_tuples.asp" target="_blank">W3Schools Python Tuples</a>.</p>
+        </section>
+
+        <section id="sets" class="section">
+            <h2>Sets</h2>
+            <p>In Python, a set is an unordered collection of unique items. Sets are defined using curly braces <code>{}</code> and can contain items of different data types.</p>
+            <p>Example:</p>
+            <pre><code>my_set = {1, 2, 3, "apple", "banana"}</code></pre>
+            <figure>
+                <img src="img/j.png" alt="Example of a set in Python">
+                <figcaption>Set example in Python</figcaption>
+            </figure>
+            <p>In this example, we create a set called <code>my_set</code> that contains integers and strings. Sets are useful for storing unique items and performing set operations like union and intersection.</p>
+            
+            <article class="concept">
+                <h3>Set Operations</h3>
+                <p>You can add items to a set using the <code>add()</code> method:</p>
+                <pre><code>my_set.add("grape")</code></pre>
+                <p>You can also remove items from a set using the <code>remove()</code> method:</p>
+                <pre><code>my_set.remove("apple")</code></pre>
+            </article>
+
+            <article class="concept">
+                <h3>Set Methods</h3>
+                <p>Sets have built-in methods for performing set operations like union, intersection, and difference:</p>
+                <pre><code>set1 = {1, 2, 3}
+set2 = {3, 4, 5}
+union_set = set1.union(set2)  # {1, 2, 3, 4, 5}
+intersection_set = set1.intersection(set2)  # {3}</code></pre>
+                <p>Sets are a powerful data structure in Python that allows you to work with collections of unique items efficiently.</p>
+            </article>
+            
+            <p class="resource-link">For more in-depth information, visit <a href="https://www.w3schools.com/python/python_sets.asp" target="_blank">W3Schools Python Sets</a>.</p>
+        </section>
+
+        <section id="dictionary" class="section">
+            <h2>Dictionaries</h2>
+            <p>In Python, a dictionary is a collection of key-value pairs. Dictionaries are defined using curly braces <code>{}</code> and use colons <code>:</code> to separate keys from values.</p>
+            <p>Example:</p>
+            <pre><code>my_dict = {'name': 'Alice', 'age': 25, 'city': 'New York'}</code></pre>
+            <figure>
+                <img src="img/k.png" alt="Example of a dictionary in Python">
+                <figcaption>Dictionary example in Python</figcaption>
+            </figure>
+            <p>In this example, we create a dictionary called <code>my_dict</code> that contains keys like 'name', 'age', and 'city' with their corresponding values.</p>
+            
+            <article class="concept">
+                <h3>Accessing and Modifying Dictionaries</h3>
+                <p>You can access values in a dictionary using their keys:</p>
+                <pre><code>print(my_dict['name'])  # Output: Alice</code></pre>
+                <p>You can also add new key-value pairs to a dictionary:</p>
+                <pre><code>my_dict['country'] = 'USA'</code></pre>
+                <p>To remove a key-value pair, you can use the <code>del</code> statement:</p>
+                <pre><code>del my_dict['age']</code></pre>
+            </article>
+
+            <article class="concept">
+                <h3>Dictionary Methods</h3>
+                <p>Dictionaries have built-in methods for manipulating data, such as getting all keys or values:</p>
+                <pre><code>keys = my_dict.keys()
+values = my_dict.values()</code></pre>
+                <p>Dictionaries are a versatile data structure in Python that allows you to store and retrieve data efficiently using keys.</p>
+            </article>
+            
+            <p class="resource-link">For more in-depth information, visit <a href="https://www.w3schools.com/python/python_dictionaries.asp" target="_blank">W3Schools Python Dictionaries</a>.</p>
+        </section>
+
+        <section id="loops" class="section">
+            <h2>Loops</h2>
+            <p>In Python, loops are used to execute a block of code repeatedly. The two main types of loops are <code>for</code> loops and <code>while</code> loops.</p>
+            
+            <article class="concept">
+                <h3>For Loops</h3>
+                <p>A <code>for</code> loop is used to iterate over a sequence (like a list, tuple, or string) and execute a block of code for each item in the sequence.</p>
+                <p>Example:</p>
+                <pre><code>numbers = [1, 2, 3, 4, 5]
+for number in numbers:
+    print(number)</code></pre>
+                <figure>
+                    <img src="img/h.png" alt="Example of a for loop in Python">
+                    <figcaption>For loop example in Python</figcaption>
+                </figure>
+                <p>This will print each item in the list <code>numbers</code>.</p>
+            </article>
+
+            <article class="concept">
+                <h3>While Loops</h3>
+                <p>A <code>while</code> loop is used to execute a block of code as long as a specified condition is True.</p>
+                <p>Example:</p>
+                <pre><code>count = 0
+while count < 5:
+    print(count)
+    count += 1</code></pre>
+                <figure>
+                    <img src="img/i.png" alt="Example of a while loop in Python">
+                    <figcaption>While loop example in Python</figcaption>
+                </figure>
+                <p>This will print the numbers 0 to 4.</p>
+            </article>
+
+            <article class="concept">
+                <h3>Loop Control Statements</h3>
+                <p>You can use the <code>break</code> statement to exit a loop prematurely and the <code>continue</code> statement to skip the current iteration and move to the next one.</p>
+                <p>Example of <code>break</code>:</p>
+                <pre><code>for i in range(10):
+    if i == 5:
+        break  # Exit the loop when i is 5
+    print(i)</code></pre>
+                <p>This will print numbers from 0 to 4 and then exit the loop when i reaches 5.</p>
+                <p>Example of <code>continue</code>:</p>
+                <pre><code>for i in range(10):
+    if i % 2 == 0:
+        continue  # Skip even numbers
+    print(i)</code></pre>
+                <p>This will print only odd numbers from 0 to 9.</p>
+                <p>Loops are essential for automating repetitive tasks and processing collections of data efficiently in Python.</p>
+            </article>
+            
+            <p class="resource-link">For more in-depth information, visit <a href="https://www.w3schools.com/python/python_for_loops.asp" target="_blank">W3Schools Python Loops</a>.</p>
+        </section>
+
+        <section id="functions" class="section">
+            <h2>Functions</h2>
+            <p>In Python, a function is a reusable block of code that performs a specific task. Functions are defined using the <code>def</code> keyword followed by the function name and parentheses.</p>
+            <p>Example:</p>
+            <pre><code>def greet(name):
+    print(f"Hello, {name}!")</code></pre>
+            <figure>
+                <img src="img/j.png" alt="Example of a function in Python">
+                <figcaption>Function example in Python</figcaption>
+            </figure>
+            <p>This defines a function called <code>greet</code> that takes one parameter called <code>name</code>. When you call this function with an argument, it will print a greeting message.</p>
+            <p>You can call the function like this:</p>
+            <pre><code>greet("Alice")  # Output: Hello, Alice!</code></pre>
+            
+            <article class="concept">
+                <h3>Return Values</h3>
+                <p>Functions can also return values using the <code>return</code> statement:</p>
+                <pre><code>def add(a, b):
+    return a + b</code></pre>
+                <figure>
+                    <img src="img/k.png" alt="Example of a function with return value in Python">
+                    <figcaption>Function with return value example</figcaption>
+                </figure>
+                <p>You can call this function and store the result in a variable:</p>
+                <pre><code>result = add(2, 3)</code></pre>
+                <p>This will assign the value 5 to the variable <code>result</code>.</p>
+            </article>
+
+            <article class="concept">
+                <h3>Default Parameters</h3>
+                <p>Functions can have default parameter values, which are used if no argument is provided for that parameter:</p>
+                <pre><code>def greet(name="Guest"):
+    print(f"Hello, {name}!")</code></pre>
+                <figure>
+                    <img src="img/l.py" alt="Example of a function with default parameter in Python">
+                    <figcaption>Function with default parameter example</figcaption>
+                </figure>
+                <p>If you call this function without an argument, it will use "Guest" as the default name.</p>
+                <p>Functions are essential for organizing code into reusable blocks and improving code readability and maintainability.</p>
+            </article>
+            
+            <p class="resource-link">For more in-depth information, visit <a href="https://www.w3schools.com/python/python_functions.asp" target="_blank">W3Schools Python Functions</a>.</p>
+        </section>
+
+        <section id="extensions" class="section">
+            <h2>Extensions</h2>
+            <p>In Python, extensions refer to additional functionalities or libraries that can be added to enhance the capabilities of the language. These extensions can be in the form of modules, packages, or third-party libraries.</p>
+            <p>Example:</p>
+            <pre><code>import math
+print(math.sqrt(16))  # Output: 4.0</code></pre>
+            <figure>
+                <img src="img/m.png" alt="Example of using an extension in Python">
+                <figcaption>Extension example in Python</figcaption>
+            </figure>
+            <p>In this example, we import the built-in <code>math</code> module and use its <code>sqrt()</code> function to calculate the square root of a number.</p>
+            
+            <article class="concept">
+                <h3>Installing Extensions</h3>
+                <p>You can also install third-party libraries using package managers like pip:</p>
+                <pre><code>pip install requests</code></pre>
+                <p>This installs the <code>requests</code> library, which allows you to make HTTP requests easily.</p>
+                <p>Extensions are a powerful way to extend the functionality of Python and leverage existing libraries for various tasks such as data analysis, web development, machine learning, and more.</p>
+            </article>
+
+            <article class="concept">
+                <h3>Installation Steps</h3>
+                <p>Steps to install an extension:</p>
+                <ol>
+                    <li>Open your command line or terminal. Use <kbd>Ctrl</kbd> + <kbd>`</kbd> in many IDEs.</li>
+                    <li>Click the arrow next to the PowerShell button and select Command Prompt if needed.</li>
+                    <li>Use the pip command to install the extension, for example: <code>pip install requests</code>.</li>
+                    <li>Once installed, you can import the extension in your Python code using the <code>import</code> statement.</li>
+                    <li>For example, to use the <code>requests</code> library, you would write: <code>import requests</code>.</li>
+                    <li>Now you can use the functions and classes provided by the extension in your Python code.</li>
+                </ol>
+                <p>Extensions are a key feature of Python that allows you to leverage the vast ecosystem of libraries and tools available for the language.</p>
+            </article>
+            
+            <p class="resource-link">For more in-depth information, visit <a href="https://www.w3schools.com/python/python_modules.asp" target="_blank">W3Schools Python Modules</a>.</p>
+        </section>
+
+        <h2>Conclusion</h2>
+            <p>In this beginner class, we covered the fundamental concepts of Python programming, including data types, variables, conditional statements, loops, functions, and extensions.</p>
+            <p>Python is a versatile and powerful language that is widely used in various fields such as web development, data analysis, artificial intelligence, and more.</p>
+            <p>Here you can code your own Python code:</p>
+            <div class="code-editor">
+                <textarea class="code-input" placeholder="Write your Python code here..."></textarea>
+                <button class="run-button">Run Code</button>
+                <div class="output-panel">
+                    <h4>Output:</h4>
+                    <div class="output-content"></div>
+                </div>
+            </div>
+            <p>By mastering these basic concepts, you will be well-equipped to start writing your own Python programs and exploring more advanced topics.</p>
+            <p>Remember to practice regularly and experiment with different code examples to reinforce your understanding.</p>
+            <p>For further learning, you can explore online resources, tutorials, and documentation to deepen your knowledge of Python.</p>
+            <p>Python project ideas include</p>
+            <ul>
+                <li>Number Guessing Game</li>
+                <li>Simple Calculator (CLI)</li>
+                <li>To-Do List (Text-Based)</li>
+                <li>Student Grade Calculator</li>
+                <li>Password Generator</li>
+            </ul>
+            <p>These projects will help you apply what you've learned and gain practical experience in Python
+            <p>Happy coding!</p>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Python Beginner Class. All rights reserved.</p>
+            <p>For more information, visit <a href="https://www.w3schools.com/python/" target="_blank">W3Schools Python Tutorial</a>.</p>
+            <p>Created by Soala Amachree </p><a href="intermidiate.html">The next stage</a>
+        </div>
+    </footer>
+
+    <!-- Skulpt Libraries (must come first) -->
+  <script src="https://cdn.jsdelivr.net/npm/skulpt@1.2.0/skulpt.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/skulpt@1.2.0/skulpt-stdlib.js"></script>
+
+  <!-- Your Script -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      function runPythonCode(code, outputElement) {
+        outputElement.textContent = "";
+
+        function outf(text) {
+          outputElement.textContent += text;
+        }
+
+        function builtinRead(x) {
+          if (Sk.builtinFiles === undefined || Sk.builtinFiles["files"][x] === undefined) {
+            throw "File not found: '" + x + "'";
+          }
+          return Sk.builtinFiles["files"][x];
+        }
+
+        Sk.configure({ output: outf, read: builtinRead });
+
+        Sk.misceval.asyncToPromise(() => Sk.importMainWithBody("<stdin>", false, code))
+          .catch(err => {
+            outputElement.textContent = err.toString();
+          });
+      }
+
+      document.querySelector(".run-button").addEventListener("click", () => {
+        const code = document.querySelector(".code-input").value;
+        const output = document.querySelector(".output-content");
+        runPythonCode(code, output);
+      });
+    });
+  </script>
+</body>
+</html>

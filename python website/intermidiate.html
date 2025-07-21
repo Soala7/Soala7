@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Learn intermediate Python concepts including functions, OOP, modules, file handling, and exception handling">
+  <title>Intermediate Python Topics | Next Steps in Python Programming</title>
+  <link rel="stylesheet" href="intermidiate.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <header>
+    <nav id="navbar">
+      <div class="nav-container">
+        <div class="nav-header">
+          <h1>Intermediate Python</h1>
+          <p>Build on your Python basics with intermediate topics that will strengthen your skills</p>
+          <button id="menu-toggle" class="menu-toggle" aria-label="Toggle navigation menu">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+        <ul id="nav-menu" class="nav-menu">
+          <li><a href="#functions" class="nav-link"><i class="fas fa-code"></i> Functions</a></li>
+          <li><a href="#oop" class="nav-link"><i class="fas fa-object-group"></i> OOP</a></li>
+          <li><a href="#modules" class="nav-link"><i class="fas fa-box-open"></i> Modules</a></li>
+          <li><a href="#file-handling" class="nav-link"><i class="fas fa-file-alt"></i> File Handling</a></li>
+          <li><a href="#exceptions" class="nav-link"><i class="fas fa-exclamation-triangle"></i> Exceptions</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section id="functions" class="topic-section">
+      <div class="section-header">
+        <h2><i class="fas fa-code section-icon"></i> Functions</h2>
+        <div class="progress-indicator">1/5</div>
+      </div>
+      <div class="content-wrapper">
+        <div class="text-content">
+          <p>Functions allow you to organize your code into reusable blocks. Python supports several advanced function features:</p>
+          <ul>
+            <li><strong>Default arguments:</strong> Parameters with predefined values</li>
+            <li><strong>Keyword arguments:</strong> Passing arguments by parameter name</li>
+            <li><strong>Variable-length arguments:</strong> *args and **kwargs for flexible parameters</li>
+            <li><strong>Lambda functions:</strong> Small anonymous functions</li>
+            <li><strong>Decorators:</strong> Modify function behavior without changing code</li>
+          </ul>
+          <div class="example-container">
+            <h3>Example: Function with default and keyword arguments</h3>
+            <pre><code class="language-python">def greet(name, greeting="Hello", punctuation="!"):
+    """Return a personalized greeting"""
+    return f"{greeting}, {name}{punctuation}"
+
+# Using default arguments
+print(greet("Soala"))  # Hello, Soala!
+
+# Using keyword arguments
+print(greet("Alice", punctuation="?"))  # Hello, Alice?</code></pre>
+          </div>
+        </div>
+      </div>
+      <div class="section-footer">
+        <button class="next-section" onclick="scrollToSection('oop')">Next: OOP <i class="fas fa-arrow-down"></i></button>
+      </div>
+    </section>
+
+    <section id="oop" class="topic-section">
+      <div class="section-header">
+        <h2><i class="fas fa-object-group section-icon"></i> Object-Oriented Programming</h2>
+        <div class="progress-indicator">2/5</div>
+      </div>
+      <div class="content-wrapper">
+        <div class="text-content">
+          <p>OOP allows you to create classes and objects to model real-world data and behavior. Key concepts include:</p>
+          <ul>
+            <li><strong>Encapsulation:</strong> Bundling data and methods that work on that data</li>
+            <li><strong>Inheritance:</strong> Creating new classes from existing ones</li>
+            <li><strong>Polymorphism:</strong> Using a unified interface for different data types</li>
+            <li><strong>Abstraction:</strong> Hiding complex implementation details</li>
+            <li><strong>Magic methods:</strong> Special methods like __init__, __str__</li>
+          </ul>
+          <div class="example-container">
+            <h3>Example: Basic class with inheritance</h3>
+            <pre><code class="language-python">class Vehicle:
+    def __init__(self, brand, model):
+        self.brand = brand
+        self.model = model
+    
+    def info(self):
+        return f"{self.brand} {self.model}"
+
+class Car(Vehicle):
+    def __init__(self, brand, model, doors):
+        super().__init__(brand, model)
+        self.doors = doors
+    
+    def info(self):
+        return f"{super().info()} with {self.doors} doors"
+
+my_car = Car("Toyota", "Corolla", 4)
+print(my_car.info())  # Toyota Corolla with 4 doors</code></pre>
+          </div>
+        </div>
+      </div>
+      <div class="section-footer">
+        <button class="prev-section" onclick="scrollToSection('functions')"><i class="fas fa-arrow-up"></i> Previous: Functions</button>
+        <button class="next-section" onclick="scrollToSection('modules')">Next: Modules <i class="fas fa-arrow-down"></i></button>
+      </div>
+    </section>
+
+    <section id="modules" class="topic-section">
+      <div class="section-header">
+        <h2><i class="fas fa-box-open section-icon"></i> Modules and Packages</h2>
+        <div class="progress-indicator">3/5</div>
+      </div>
+      <div class="content-wrapper">
+        <div class="text-content">
+          <p>Python's module system helps organize code into logical units. Key aspects include:</p>
+          <ul>
+            <li><strong>Modules:</strong> Single Python files containing reusable code</li>
+            <li><strong>Packages:</strong> Collections of modules in directories</li>
+            <li><strong>Standard Library:</strong> Built-in modules for common tasks</li>
+            <li><strong>pip:</strong> Package installer for Python</li>
+            <li><strong>Virtual environments:</strong> Isolated Python environments</li>
+          </ul>
+          <div class="example-container">
+            <h3>Example: Creating and using a module</h3>
+            <div class="code-tabs">
+              <div class="tab-buttons">
+                <button class="tab-button active" onclick="openTab(event, 'math-module')">math_module.py</button>
+                <button class="tab-button" onclick="openTab(event, 'main-script')">main.py</button>
+              </div>
+              <div id="math-module" class="tab-content active">
+                <pre><code class="language-python"># math_module.py
+"""A simple math module with basic operations"""
+
+def add(x, y):
+    """Return the sum of two numbers"""
+    return x + y
+
+def multiply(x, y):
+    """Return the product of two numbers"""
+    return x * y
+
+if __name__ == "__main__":
+    # Test code when run directly
+    print(add(2, 3))  # 5</code></pre>
+              </div>
+              <div id="main-script" class="tab-content">
+                <pre><code class="language-python"># main.py
+from math_module import add, multiply
+
+result = add(5, 7)
+print(result)  # 12
+
+product = multiply(3, 4)
+print(product)  # 12</code></pre>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      <div class="section-footer">
+        <button class="prev-section" onclick="scrollToSection('oop')"><i class="fas fa-arrow-up"></i> Previous: OOP</button>
+        <button class="next-section" onclick="scrollToSection('file-handling')">Next: File Handling <i class="fas fa-arrow-down"></i></button>
+      </div>
+    </section>
+
+    <section id="file-handling" class="topic-section">
+      <div class="section-header">
+        <h2><i class="fas fa-file-alt section-icon"></i> File Handling</h2>
+        <div class="progress-indicator">4/5</div>
+      </div>
+      <div class="content-wrapper">
+        <div class="text-content">
+          <p>Python provides powerful tools for working with files and directories:</p>
+          <ul>
+            <li><strong>File modes:</strong> 'r' (read), 'w' (write), 'a' (append), 'b' (binary)</li>
+            <li><strong>Context managers:</strong> Using <code>with</code> for automatic resource management</li>
+            <li><strong>Common operations:</strong> Reading, writing, appending, seeking</li>
+            <li><strong>File system operations:</strong> Using the <code>os</code> and <code>pathlib</code> modules</li>
+            <li><strong>CSV and JSON:</strong> Working with structured data formats</li>
+          </ul>
+          <div class="example-container">
+            <h3>Example: Reading and writing files</h3>
+            <pre><code class="language-python"># Writing to a file
+with open("example.txt", "w") as file:
+    file.write("Hello, Python World!\n")
+    file.write("This is a second line.\n")
+
+# Reading from a file
+with open("example.txt", "r") as file:
+    content = file.read()
+    print(content)
+
+# Appending to a file
+with open("example.txt", "a") as file:
+    file.write("This line was appended.\n")</code></pre>
+          </div>
+        </div>
+      </div>
+      <div class="section-footer">
+        <button class="prev-section" onclick="scrollToSection('modules')"><i class="fas fa-arrow-up"></i> Previous: Modules</button>
+        <button class="next-section" onclick="scrollToSection('exceptions')">Next: Exceptions <i class="fas fa-arrow-down"></i></button>
+      </div>
+    </section>
+
+    <section id="exceptions" class="topic-section">
+      <div class="section-header">
+        <h2><i class="fas fa-exclamation-triangle section-icon"></i> Exception Handling</h2>
+        <div class="progress-indicator">5/5</div>
+      </div>
+      <div class="content-wrapper">
+        <div class="text-content">
+          <p>Robust programs handle errors gracefully using exception handling:</p>
+          <ul>
+            <li><strong>Try-except blocks:</strong> Catch and handle exceptions</li>
+            <li><strong>Exception hierarchy:</strong> Built-in exception classes</li>
+            <li><strong>Custom exceptions:</strong> Creating your own exception types</li>
+            <li><strong>Else and finally:</strong> Additional control flow</li>
+            <li><strong>Common exceptions:</strong> ValueError, TypeError, IOError, etc.</li>
+          </ul>
+          <div class="example-container">
+            <h3>Example: Comprehensive exception handling</h3>
+            <pre><code class="language-python">def divide_numbers():
+    try:
+        numerator = float(input("Enter numerator: "))
+        denominator = float(input("Enter denominator: "))
+        result = numerator / denominator
+    except ValueError:
+        print("Error: Please enter valid numbers")
+    except ZeroDivisionError:
+        print("Error: Cannot divide by zero")
+    else:
+        print(f"Result: {result}")
+    finally:
+        print("Operation attempted")
+
+divide_numbers()</code></pre>
+          </div>
+        </div>
+      </div>
+      <div class="section-footer">
+        <button class="prev-section" onclick="scrollToSection('file-handling')"><i class="fas fa-arrow-up"></i> Previous: File Handling</button>
+        <button class="quiz-button" onclick="startQuiz()">Take Quiz <i class="fas fa-question-circle"></i></button>
+      </div>
+    </section>
+
+    <div id="quiz-modal" class="modal">
+      <div class="modal-content">
+        <span class="close-modal" onclick="closeModal()">&times;</span>
+        <h2>Python Knowledge Quiz</h2>
+        <div id="quiz-container">
+          <!-- Quiz questions will be inserted here by JavaScript -->
+        </div>
+        <button id="submit-quiz" onclick="submitQuiz()">Submit Quiz</button>
+        <div id="quiz-results"></div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-section">
+        <h3>Quick Tips</h3>
+        <ul class="footer-links">
+          <li><a href="https://docs.python.org/3/" target="_blank" rel="noopener"><i class="fas fa-book"></i> Official Python Docs</a></li>
+          <li><a href="https://realpython.com" target="_blank" rel="noopener"><i class="fas fa-graduation-cap"></i> Real Python Tutorials</a></li>
+          <li><a href="https://pypi.org/" target="_blank" rel="noopener"><i class="fas fa-boxes"></i> Python Package Index</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>Course Progress</h3>
+        <div class="progress-bar">
+          <div class="progress" id="course-progress"></div>
+        </div>
+        <p id="progress-text">0% Complete</p>
+      </div>
+      <div class="footer-section">
+        <h3>Interactive Features</h3>
+        <button id="theme-toggle" onclick="toggleTheme()"><i class="fas fa-moon"></i> Toggle Dark Mode</button>
+        <button id="text-size" onclick="adjustTextSize()"><i class="fas fa-text-height"></i> Adjust Text Size</button>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2023 Python Intermediate Course. All rights reserved.</p>
+      <p class="highlight-text" onclick="this.classList.toggle('highlight')">Click to highlight this text!</p>
+      <p>Created by Soala Amachree</p><a href="advance.html">The next stage</a>
+      <p>For more resources, visit the <a href="https://docs.python.org/3/" target="_blank">official Python documentation</a></p>
+    </div>
+  </footer>
+
+  <script src="intermidiate.js"></script>
+</body>
+</html>
