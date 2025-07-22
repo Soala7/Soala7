@@ -29,5 +29,20 @@ You can click the Preview link to take a look at your changes.
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="40" height="40"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="40" height="40"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="40" height="40"/>
+   <!-- VS Code -->
+  <img src="https://img.shields.io/badge/Visual_Studio_Code-007ACC?logo=visualstudiocode&logoColor=white&style=for-the-badge" alt="VS Code"/>
+  <!-- Ubuntu -->
+  <img src="https://img.shields.io/badge/Ubuntu-E95420?logo=ubuntu&logoColor=white&style=for-the-badge" alt="Ubuntu"/>
+  <!-- Docker Desktop -->
+  <img src="https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white&style=for-the-badge" alt="Docker"/>
   <!-- Add more icons as needed -->
 </p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Soala7&show_icons=true&theme=radical" alt="Soala's GitHub Stats" />
+  <br />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Soala7&layout=compact&theme=radical" alt="Most Used Languages" />
+  <br />
+  <img src="https://streak-stats.demolab.com?user=Soala7&theme=radical&border_radius=5" alt="GitHub Streak" />
+</p>
+
