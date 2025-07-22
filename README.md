@@ -12,26 +12,27 @@ You can click the Preview link to take a look at your changes.
 --->
 ## 🔗 Let's Connect:
 <p align="center">
-  <!-- Gmail (paper plane animation) -->
+  <!-- Gmail -->
   <a href="mailto:your@email.com">
-    <img src="https://media.giphy.com/media/YrNSGy3YzgCXykGz1j/giphy.gif" width="40" />
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg" width="35" />
   </a>
-
+  
   <!-- Twitter -->
   <a href="https://twitter.com/yourhandle">
-    <img src="https://media.giphy.com/media/8rF45mnql3iD5jQqQn/giphy.gif" width="40" />
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/twitter/twitter-original.svg" width="35" />
   </a>
 
   <!-- Stack Overflow -->
   <a href="https://stackoverflow.com/users/yourid">
-    <img src="https://media.giphy.com/media/iOmYpVJ3OEptPQIHN0/giphy.gif" width="40" />
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/stackoverflow/stackoverflow-original.svg" width="35" />
   </a>
 
   <!-- LinkedIn -->
   <a href="https://www.linkedin.com/in/YOUR-LINKEDIN-USERNAME">
-    <img src="https://media.giphy.com/media/XAxylRMCdpbEWUAvr8/giphy.gif" width="40" />
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="35" />
   </a>
 </p>
+
 
 
 ## 🛠️ Languages and Tools:
