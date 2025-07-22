@@ -12,11 +12,27 @@ You can click the Preview link to take a look at your changes.
 --->
 ## 🔗 Let's Connect:
 <p align="center">
-  <a href="mailto:your@email.com"><img src="https://img.shields.io/badge/-000000?style=flat&logo=gmail&logoColor=red" height="28"/></a>
-  <a href="https://twitter.com/yourhandle"><img src="https://img.shields.io/badge/-000000?style=flat&logo=twitter&logoColor=1DA1F2" height="28"/></a>
-  <a href="https://stackoverflow.com/users/yourid"><img src="https://img.shields.io/badge/-000000?style=flat&logo=stackoverflow&logoColor=F48024" height="28"/></a>
-  <a href="https://www.linkedin.com/in/YOUR-LINKEDIN-USERNAME"><img src="https://img.shields.io/badge/-000000?style=flat&logo=linkedin&logoColor=0A66C2" height="28"/></a>
+  <!-- Gmail (paper plane animation) -->
+  <a href="mailto:your@email.com">
+    <img src="https://media.giphy.com/media/YrNSGy3YzgCXykGz1j/giphy.gif" width="40" />
+  </a>
+
+  <!-- Twitter -->
+  <a href="https://twitter.com/yourhandle">
+    <img src="https://media.giphy.com/media/8rF45mnql3iD5jQqQn/giphy.gif" width="40" />
+  </a>
+
+  <!-- Stack Overflow -->
+  <a href="https://stackoverflow.com/users/yourid">
+    <img src="https://media.giphy.com/media/iOmYpVJ3OEptPQIHN0/giphy.gif" width="40" />
+  </a>
+
+  <!-- LinkedIn -->
+  <a href="https://www.linkedin.com/in/YOUR-LINKEDIN-USERNAME">
+    <img src="https://media.giphy.com/media/XAxylRMCdpbEWUAvr8/giphy.gif" width="40" />
+  </a>
 </p>
+
 
 ## 🛠️ Languages and Tools:
 <p align="center">
