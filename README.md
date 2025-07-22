@@ -40,12 +40,12 @@ You can click the Preview link to take a look at your changes.
 </p>
 
 ---
-
 <p align="center">
-  <!-- GitHub Stats -->
-  <img src="https://github-readme-stats.vercel.app/api?username=Soala7&show_icons=true&hide_title=true&hide=issues&theme=radical" height="160"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=Soala7&show_icons=true&theme=radical" alt="Soala's GitHub Stats" />
   <br />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Soala7&layout=compact&theme=radical" height="130"/>
- <br/>
-[![GitHub Streak](https://streak-stats.demolab.com?user=Soala7&theme=radical&border_radius=5)](https://git.io/streak-stats)
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Soala7&layout=compact&theme=radical" alt="Most Used Languages" />
+  <br />
+  <img src="https://streak-stats.demolab.com?user=Soala7&theme=radical&border_radius=5" alt="GitHub Streak" />
+</p>
+
 ---
