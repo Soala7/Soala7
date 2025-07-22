@@ -12,12 +12,10 @@ You can click the Preview link to take a look at your changes.
 --->
 ## 🔗 Let's Connect:
 <p align="center">
-  <!-- Socials (symbols only) -->
-  <a href="mailto:nigaamace@gmail.com"><img src="https://img.shields.io/badge/-000000?style=flat&logo=gmail&logoColor=red" height="40"/></a>
-  <a href="https://twitter.com/AmaceNiga31850"><img src="https://img.shields.io/badge/-000000?style=flat&logo=twitter&logoColor=1DA1F2" height="40"/></a>
-  <a href="https://stackoverflow.com/Soala Amachree/yourid"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"width="40"/></a>
-  <a href="https://www.linkedin.com/in/soala-amachree-12361313"><img src="https://img.shields.io/badge/-000000?style=flat&logo=linkedin&logoColor=0A66C2" height="40"/></a>
-
+  <a href="mailto:your@email.com"><img src="https://img.shields.io/badge/-000000?style=flat&logo=gmail&logoColor=red" height="28"/></a>
+  <a href="https://twitter.com/yourhandle"><img src="https://img.shields.io/badge/-000000?style=flat&logo=twitter&logoColor=1DA1F2" height="28"/></a>
+  <a href="https://stackoverflow.com/users/yourid"><img src="https://img.shields.io/badge/-000000?style=flat&logo=stackoverflow&logoColor=F48024" height="28"/></a>
+  <a href="https://www.linkedin.com/in/YOUR-LINKEDIN-USERNAME"><img src="https://img.shields.io/badge/-000000?style=flat&logo=linkedin&logoColor=0A66C2" height="28"/></a>
 </p>
 
 ## 🛠️ Languages and Tools:
