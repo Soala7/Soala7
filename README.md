@@ -11,14 +11,14 @@ Soala7/Soala7 is a ✨ special ✨ repository because its `README.md` (this file
 You can click the Preview link to take a look at your changes.
 --->
 ## 🔗 Let's Connect:
-
 <p align="center">
-  <!-- Avatar or Greeting Animation (optional custom image) -->
-  <img src="https://media.giphy.com/media/3o7TKU8RvQuomFfUUU/giphy.gif" height="120"/>
+  <!-- Socials (symbols only) -->
+  <a href="mailto:your@email.com"><img src="https://img.shields.io/badge/-000000?style=flat&logo=gmail&logoColor=red" height="28"/></a>
+  <a href="https://twitter.com/yourhandle"><img src="https://img.shields.io/badge/-000000?style=flat&logo=twitter&logoColor=1DA1F2" height="28"/></a>
+  <a href="https://stackoverflow.com/users/yourid"><img src="https://img.shields.io/badge/-000000?style=flat&logo=stackoverflow&logoColor=F48024" height="28"/></a>
 </p>
 
----
-
+## 🛠️ Languages and Tools:
 <p align="center">
   <!-- Programming & Tools -->
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="40"/>
@@ -45,10 +45,3 @@ You can click the Preview link to take a look at your changes.
 </p>
 
 ---
-
-<p align="center">
-  <!-- Socials (symbols only) -->
-  <a href="mailto:your@email.com"><img src="https://img.shields.io/badge/-000000?style=flat&logo=gmail&logoColor=red" height="28"/></a>
-  <a href="https://twitter.com/yourhandle"><img src="https://img.shields.io/badge/-000000?style=flat&logo=twitter&logoColor=1DA1F2" height="28"/></a>
-  <a href="https://stackoverflow.com/users/yourid"><img src="https://img.shields.io/badge/-000000?style=flat&logo=stackoverflow&logoColor=F48024" height="28"/></a>
-</p>
