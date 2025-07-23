@@ -1,10 +1,16 @@
 - 👋 Hi, I’m @Soala7
-- 👀 I’m interested in programming, problem solving, chess, forex and crypto
+- 👀 I’m interested in programming, problem solving, chess and  blockchain dev.
 - 🌱 I’m currently learning advanced Python
-- 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me in Nigeria use +234 in number is -9039857410
 - 😄 Pronouns: I'm a male
 - ⚡ Fun fact: I was 15 at the time i created this account
+
+<!-- 🔗 Quick Info Badges -->
+<p align="center">
+  <img src="https://img.shields.io/badge/Mechatronics%20Engineering-blue?style=flat-square" />
+  <img src="https://img.shields.io/badge/Made%20in-Nigeria-008751?style=flat-square" />
+  <img src="https://img.shields.io/github/followers/Greysky41?label=Followers&style=social" />
+</p>
 
 <!---
 Soala7/Soala7 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
