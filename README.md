@@ -12,7 +12,7 @@ You can click the Preview link to take a look at your changes.
 --->
 <!-- 🔠 Typing Animation Header -->
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=3000&pause=1000&color=00BFFF&width=550&lines=Hi%2C+I'm+Joshua+👋;Mechatronics+Engineering+Student;Creative+Coder+%7C+AI+Explorer+%7C+Builder;Solving+Real-World+Problems+with+Tech;Engineer+with+Code%2C+Design+%26+Vision" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=3000&pause=1000&color=00BFFF&width=550&lines=Hi%2C+I'm+Soala+👋;Mechatronics+Engineering+Student;Creative+Coder+%7C+AI+Explorer+%7C+Builder;Solving+Real-World+Problems+with+Tech;Engineer+with+Code%2C+Design+%26+Vision" />
 </p>
 
 
@@ -97,7 +97,10 @@ You can click the Preview link to take a look at your changes.
   <!-- GitHub Achievements -->
   <img src="https://img.shields.io/badge/-GitHub%20Achievements-6e40c9?style=for-the-badge&logo=github&logoColor=white" />
 </p>
- 
 
-
+ <p align="center">
+  <em>"Engineering is not just building — it's solving.Innovation is seeing what everybody has seen and thinking what nobody has thought."</em><br/>
+  <strong>— Soala Amachree</strong>
+</p>
 ---
+
