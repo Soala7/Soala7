@@ -63,7 +63,7 @@ You can click the Preview link to take a look at your changes.
   <br />
   <img src="https://streak-stats.demolab.com?user=Soala7&theme=radical&border_radius=5" alt="GitHub Streak" />
     <br/>
-  <img src="https://github-profile-trophy.vercel.app/?username=Soala7&theme=radical&no-frame=true&margin-w=10" width="80%" />
+  <img src="https://github-profile-trophy.vercel.app/?username=Soala7&theme=radical&no-frame=true&margin-w=10" width="80%" height = "40" />
 
 </p>
 
@@ -99,7 +99,8 @@ You can click the Preview link to take a look at your changes.
 </p>
 
  <p align="center">
-  <em>"Engineering is not just building — it's solving.Innovation is seeing what everybody has seen and thinking what nobody has thought."</em><br/>
+  <em>"Engineering is not just building — it's solving</em><br/>
+  <em>"Innovation is seeing what everybody has seen and thinking what nobody has thought."</em><br/>
   <strong>— Soala Amachree</strong>
 </p>
 ---
