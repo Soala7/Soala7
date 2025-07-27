@@ -114,6 +114,7 @@ You can click the Preview link to take a look at your changes.
  <p align="center">
   <em>"Engineering is not just building — it's solving"</em><br/>
   <em>"Innovation is seeing what everybody has seen and thinking what nobody has thought."</em><br/>
+   <em>"We code because we made the computer do as we say, and felt like a god"</em>
   <strong>— Soala Amachree</strong>
 </p>
 ---
