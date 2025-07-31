@@ -4,7 +4,9 @@
 - 📫 How to reach me in Nigeria use +234 in number is -9039857410
 - 😄 Pronouns: I'm a male
 - ⚡ Fun fact: I was 15 at the time i created this account
+
 ![Profile views](https://komarev.com/ghpvc/?username=SoalaAmachree&label=Profile%20Views&color=0e75b6&style=flat)
+
 <!-- 🔗 Quick Info Badges -->
 <p align="center">
   <img src="https://img.shields.io/badge/Mechatronics%20Engineering-blue?style=flat-square" />
