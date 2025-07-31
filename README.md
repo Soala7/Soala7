@@ -10,7 +10,6 @@
   <img src="https://img.shields.io/badge/Mechatronics%20Engineering-blue?style=flat-square" />
   <img src="https://img.shields.io/badge/Made%20in-Nigeria-008751?style=flat-square" />
   <img src="https://img.shields.io/github/followers/Soala7?label=Followers&style=social" />
-  <img src="https://img.shields.io/github/viewers/Soala7?label=Followers&style=social" />
 </p>
 
 <!---
