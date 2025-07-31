@@ -83,7 +83,7 @@ You can click the Preview link to take a look at your changes.
 
 - Completed “AI for Everyone” by Andrew Ng (Coursera)  
 - Built & deployed 6+ hardware/software projects from scratch
-- <p align="center">
+<p align="center">
   <!-- Harvard CS50 AI + Python -->
   <img src="https://img.shields.io/badge/-Harvard%20CS50:AI%20&%20Python-red?style=for-the-badge&logo=harvard&logoColor=white" />
 
