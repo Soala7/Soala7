@@ -20,7 +20,7 @@ You can click the Preview link to take a look at your changes.
 --->
 <!-- 🔠 Typing Animation Header -->
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=3000&pause=1000&color=00BFFF&width=550&lines=Hi%2C+I'm+Soala+👋;Mechatronics+Engineering+Student;Creative+Coder+%7C+AI+Explorer+%7C+Builder;Solving+Real-World+Problems+with+Tech;👀+I’m+interested+in+programming,+problem+solving,+chess+and+blockchain dev.;Engineer+with+Code%2C+Design+%26+Vision" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=3000&pause=1000&color=00BFFF&width=550&lines=Hi%2C+I'm+Soala+👋;Mechatronics+Engineering+Student;Creative+Coder+%7C+AI+Explorer+%7C+Builder;Solving+Real-World+Problems+with+Tech;👀+I’m+interested+in+programming+problem+solving+chess+and+blockchain+dev;Engineer+with+Code%2C+Design+%26+Vision" />
 </p>
 
 
