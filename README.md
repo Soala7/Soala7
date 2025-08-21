@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @Soala7
+- 👋 Hi, I’m Soala
 - 👀 I’m interested in programming, problem solving, chess and  blockchain dev.
 - 🌱 I’m currently learning advanced Python
 - 📫 How to reach me in Nigeria use +234 in number is -9039857410
