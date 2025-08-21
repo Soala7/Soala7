@@ -1,6 +1,6 @@
 - 👋 Hi, I’m Soala
 - 👀 I’m interested in programming, problem solving, chess and  blockchain dev.
-- 🌱 I’m currently learning advanced Python
+- 🌱 I’m currently learning whatever I want
 - 📫 How to reach me in Nigeria use +234 in number is -9039857410
 - 😄 Pronouns: I'm a male
 - ⚡ Fun fact: I was 15 at the time i created this account
