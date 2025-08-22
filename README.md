@@ -62,7 +62,7 @@ You can click the Preview link to take a look at your changes.
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/windows11/windows11-original.svg" width="40" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/yarn/yarn-original.svg" width="40" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="40"/>
-     <imgsrc="https://www.google.com/searchsca_esv=c8be1566c129d7a0&sxsrf=AE3TifPt8IN0uTIoPoiITenCTyv0FMwXWw:1755848242094&udm=2&fbs=AIIjpHxU7SXXniUZfeShr2fp4giZ1Y6MJ25_tmWITc7uy4KIemkjk18Cn72Gp24fGkjjh6wQFVCbKXb4P6swJy4x5wjmC_909EqiJuKoJVBAt1bQq6luVFify5Wh6pU8lhPjVmyMLMRBHaWetUPabFr14MFyGM0VSnrszJOQUyUUvhc-kfjFMepAaTtWyjDXzUXQQo5QJCSPW1sn8N-CKbH1yHFP6vICiw&q=kicad+logo+png&sa=X&ved=2ahUKEwiFnv-19J2PAxX_T0EAHXTCH3QQtKgLegQIERAB&biw=1366&bih=607&dpr=1#vhid=xG7ZV0BUHoJC7M&vssid=mosaic" width="40"/>
+  <img src="https://openclipart.org/detail/231765/kicad-icon-and-logo" width="40"/>
   <img src="https://upload.wikimedia.org/wikipedia/commons/7/73/Arduino_IDE_logo.svg" width="40"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/canva/canva-original.svg" width="40" />
           
