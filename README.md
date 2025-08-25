@@ -98,17 +98,11 @@ You can click the Preview link to take a look at your changes.
   <!-- Harvard CS50 AI + Python -->
   <img src="https://img.shields.io/badge/-Harvard%20CS50:AI%20&%20Python-red?style=for-the-badge&logo=harvard&logoColor=white" />
 
-  <!-- Flask Web App -->
-  <img src="https://img.shields.io/badge/-Flask%20Web%20Apps-black?style=for-the-badge&logo=flask&logoColor=white" />
-
   <!-- Python CLI Grading System -->
   <img src="https://img.shields.io/badge/-Python%20Result%20App-306998?style=for-the-badge&logo=python&logoColor=white" />
 
   <!-- Git & GitHub -->
   <img src="https://img.shields.io/badge/-Git%20&%20GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
-
-  <!-- Chatbot in React + Flask -->
-  <img src="https://img.shields.io/badge/-Chatbot%20(React+Flask)-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
 
   <!-- VS Code Mastery -->
   <img src="https://img.shields.io/badge/-Visual%20Studio%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" />
