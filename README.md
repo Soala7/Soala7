@@ -75,17 +75,17 @@ You can click the Preview link to take a look at your changes.
 - *3D CAD Designs* – Prototypes and parts for mechanical projects  
 
 🔗 [See more →](https://github.com/Soala7?tab=repositories)
-
+---
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Soala7&show_icons=true&theme=default" alt="Soala's GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Soala7&show_icons=true&title_color=6c757d&text_color=6c757d&icon_color=6c757d&bg_color=00000000&hide_border=true" alt="Soala's GitHub Stats" />
   <br />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Soala7&layout=compact&theme=default" alt="Most Used Languages" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Soala7&layout=compact&title_color=6c757d&text_color=6c757d&bg_color=00000000&hide_border=true" alt="Most Used Languages" />
   <br />
-  <img src="https://streak-stats.demolab.com?user=Soala7&theme=default&border_radius=5" alt="GitHub Streak" />
+  <img src="https://streak-stats.demolab.com?user=Soala7&theme=graywhite&border_radius=5&background=00000000" alt="GitHub Streak" />
   <br/>
-  <img src="https://github-profile-trophy.vercel.app/?username=Soala7&theme=flat&no-frame=true&margin-w=10" width="80%" alt="GitHub Trophies" />
+  <img src="https://github-profile-trophy.vercel.app/?username=Soala7&theme=flat&no-frame=true&margin-w=10&title=FFFFFF&text=6c757d" width="80%" alt="GitHub Trophies" />
 </p>
-
+---
 
 ## 📌 Highlights
 
