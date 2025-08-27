@@ -76,7 +76,6 @@ You can click the Preview link to take a look at your changes.
 
 🔗 [See more →](https://github.com/Soala7?tab=repositories)
 
-
 ---
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Soala7&show_icons=true&theme=radical" alt="Soala's GitHub Stats" />
