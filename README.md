@@ -83,6 +83,9 @@ You can click the Preview link to take a look at your changes.
   <br />
   <img src="https://streak-stats.demolab.com?user=Soala7&theme=graywhite&border_radius=5&background=00000000" alt="GitHub Streak" />
   <br/>
+  <img src="https://github-profile-trophy.vercel.app/?username=Soala7&theme=radical&no-frame=true&margin-w=10" width="80%" height = "40" />
+</p>
+
 
 ## 📌 Highlights
 
