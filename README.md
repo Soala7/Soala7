@@ -1,4 +1,4 @@
-- 👋 Hi, I’m Soala
+- 👋 Hi, I’m Soala Amachree
 - 👀 I’m interested in programming, problem solving, chess and  blockchain dev.
 - 🌱 I’m currently learning whatever I want
 - 📫 How to reach me in Nigeria use +234 in number is -9039857410
