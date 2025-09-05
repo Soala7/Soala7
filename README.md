@@ -73,7 +73,7 @@ You can click the Preview link to take a look at your changes.
 - *AI Chatbot* – Built with Python + NLTK  
 - *Personal Portfolio* – Responsive website using HTML/CSS/JS  
 - *3D CAD Designs* – Prototypes and parts for mechanical projects  
-
+- *Canvas designs* - Clean and beautiful designs for businesses 
 🔗 [See more →](https://github.com/Soala7?tab=repositories)
 ---
 <p align="center">
