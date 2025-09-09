@@ -2,7 +2,7 @@
 - 👀 I’m interested in programming, problem solving, chess and  blockchain dev.
 - 🌱 I’m currently learning whatever I want
 - 📫 How to reach me in Nigeria use +234 in number is -9039857410
-- 😄 Pronouns: I'm a male
+- Pronouns: I'm a male
 - ⚡ Fun fact: I want to do it all and i will
 
 ![Profile views](https://komarev.com/ghpvc/?username=SoalaAmachree&label=Profile%20Views&color=0e75b6&style=flat)
