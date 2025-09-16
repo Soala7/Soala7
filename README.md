@@ -1,4 +1,4 @@
-- 👋 Hi, I’m Soala Amachree
+⁶- 👋 Hi, I’m Soala Amachree
 - 👀 I’m interested in programming, problem solving, chess and  blockchain dev.
 - 🌱 I’m currently learning whatever I want
 - 📫 How to reach me in Nigeria use +234 in number is -9039857410
@@ -84,7 +84,7 @@ You can click the Preview link to take a look at your changes or change.
   <br />
   <img src="https://streak-stats.demolab.com?user=Soala7&theme=graywhite&border_radius=5&background=00000000" alt="GitHub Streak" />
   <br/>
-  <img src="https://github-profile-trophy.vercel.app/?username=Soala7&theme=graywhite&border_radius=5&background=10000000" width = "90%"/>
+  <img src="https://github-profile-trophy.vercel.app/?username=Soala7&theme=graywhite&border_radius=5&background=10000000" height = "90%"/>
 </p>
 
 
