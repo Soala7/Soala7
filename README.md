@@ -5,7 +5,7 @@
 - Pronouns: I'm a male
 - ⚡ Fun fact: I want to do it all and i will
 
-![Profile views](https://komarev.com/ghpvc/?username=SoalaAmachree&label=Profile%20Views&color=0e75b6&style=flat)
+![Profile views](https://komarev.com/ghpvc/?username=SoalaAmachree&label=Profile%20Views&color=0e75b6&)
 
 <!-- 🔗 Quick Info Badges -->
 <p align="center">
