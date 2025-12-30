@@ -29,7 +29,7 @@ You can click the Preview link to take a look at your changes or change.
   <!-- Gmail -->
   <a href="mailto:nigaamace@gmail.com"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg" width="35" /></a>
   <!-- Twitter -->
-  <a href="https://twitter.com/AmaceNiga31850"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/twitter/twitter-original.svg" width="35" /></a>
+  <a href="https://twitter.com/Soala7VA"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/twitter/twitter-original.svg" width="35" /></a>
   <!-- Stack Overflow -->
   <a href="https://stackoverflow.com/users/preferences/31110642"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/stackoverflow/stackoverflow-original.svg" width="35" /></a>
   <!-- LinkedIn -->
