@@ -89,16 +89,20 @@ soala = {
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Soala7&show_icons=true&theme=tokyonight&hide_border=true&border_radius=10" height="160"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Soala7&layout=compact&theme=tokyonight&hide_border=true&border_radius=10" height="160"/>
+<a href="https://github.com/Soala7">
+  <img height="160" src="https://github-readme-stats.vercel.app/api?username=Soala7&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&rank_icon=github&cache_seconds=1800" />
+  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Soala7&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&cache_seconds=1800" />
+</a>
 
-<br/>
+<br/><br/>
 
-<img src="https://streak-stats.demolab.com?user=Soala7&theme=tokyonight&hide_border=true&border_radius=10" height="150"/>
+<a href="https://git.io/streak-stats">
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=Soala7&theme=tokyonight&hide_border=true&border_radius=10&date_format=j%20M%5B%20Y%5D" height="150"/>
+</a>
 
-<br/>
+<br/><br/>
 
-<img src="https://github-profile-trophy.vercel.app/?username=Soala7&theme=tokyonight&no-frame=true&row=1&column=7" />
+<img src="https://github-profile-trophy.vercel.app/?username=Soala7&theme=tokyonight&no-frame=true&row=1&column=6&margin-w=10" />
 
 </div>
 
