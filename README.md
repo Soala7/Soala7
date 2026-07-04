@@ -481,5 +481,299 @@ These are projects I plan to build as I continue learning Mechatronics Engineeri
 - 🏠 Smart Home Automation System
 
 > *Every project is an opportunity to learn something new and solve a real-world problem.*
-> *Anyone who says "I'll do it tomorrow" has already losed today*.
 ---
+---
+
+# 📊 GitHub Statistics
+
+<div align="center">
+
+<a href="https://github.com/Soala7">
+    <img height="170" src="https://github-readme-stats.vercel.app/api?username=Soala7&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=00000000&title_color=FFD700&icon_color=C1121F&text_color=F8F8F2"/>
+    <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Soala7&layout=compact&hide_border=true&bg_color=00000000&title_color=FFD700&text_color=F8F8F2"/>
+</a>
+
+<br><br>
+
+<img src="https://streak-stats.demolab.com?user=Soala7&hide_border=true&background=00000000&ring=FFD700&fire=C1121F&currStreakLabel=FFD700&sideLabels=F8F8F2&dates=AAAAAA&currStreakNum=FFFFFF&sideNums=FFFFFF"/>
+
+<br><br>
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Soala7&theme=github_dark"/>
+
+<br><br>
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Soala7&theme=github_dark"/>
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Soala7&theme=github_dark"/>
+
+<br><br>
+
+<img src="https://github-profile-trophy.vercel.app/?username=Soala7&theme=algolia&no-frame=true&no-bg=true&row=2&column=4"/>
+
+</div>
+
+---
+
+# 🏆 Achievements
+
+<div align="center">
+
+| Achievement | Description |
+|-------------|-------------|
+| 🤖 Robotics Enthusiast | Building robotics and embedded systems projects. |
+| 🖥️ Operating System Developer | Designing **VirtualOS (VOS)** from the ground up. |
+| 🎓 Engineering Student | Pursuing a B.Eng. in Mechatronics Engineering. |
+| 🌐 Full-Stack Developer | Developing responsive web applications and academic management systems. |
+| ♟️ Python Developer | Building desktop applications, games, automation tools, and AI projects. |
+| 🎨 CAD Designer | Designing mechanical components and assemblies using professional CAD software. |
+| 🧠 Lifelong Learner | Continuously learning new technologies and engineering concepts. |
+
+</div>
+
+---
+
+# 🎓 Education
+
+```text
+Institution
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🏫 Bells University of Technology
+
+Degree
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Bachelor of Engineering (B.Eng.)
+
+Major
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Mechatronics Engineering
+
+Status
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🎓 Currently Studying
+
+Location
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Ota, Ogun State, Nigeria
+```
+
+---
+
+# 📜 Certifications
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/Python-Programming-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+
+<img src="https://img.shields.io/badge/Git-GitHub-F05032?style=for-the-badge&logo=git&logoColor=white"/>
+
+<img src="https://img.shields.io/badge/Arduino-Programming-00979D?style=for-the-badge&logo=arduino&logoColor=white"/>
+
+</div>
+
+> *This section will continue to grow as I earn certifications in AI, Embedded Systems, Robotics, Cybersecurity, and Cloud Computing.*
+
+---
+
+# 🎯 Goals for 2026
+
+## 🚀 Software Engineering
+
+- ✅ Continue building **VirtualOS (VOS)**
+- 🐍 Master advanced Python development
+- ⚙️ Strengthen C programming skills
+- 🖥️ Learn operating system internals
+- 🐧 Become proficient with Linux
+
+---
+
+## 🤖 Robotics & Embedded Systems
+
+- Build an autonomous mobile robot
+- Learn ROS 2
+- Explore embedded Linux
+- Design custom PCBs
+- Develop intelligent automation systems
+
+---
+
+## 🧠 Artificial Intelligence
+
+- Master OpenCV
+- Build practical AI-powered applications
+- Develop computer vision systems
+- Explore machine learning fundamentals
+
+---
+
+## 🌍 Open Source
+
+- Publish high-quality engineering projects
+- Contribute to open-source repositories
+- Document projects thoroughly
+- Collaborate with developers worldwide
+
+---
+
+# 📈 Growth Roadmap
+
+```text
+Python
+███████████████████████████░░░░
+
+Web Development
+███████████████████████░░░░░░░░
+
+Computer Vision
+████████████████░░░░░░░░░░░░░░░
+
+Embedded Systems
+███████████░░░░░░░░░░░░░░░░░░░░
+
+Operating Systems
+██████████░░░░░░░░░░░░░░░░░░░░░
+
+CAD Design
+████████████████████░░░░░░░░░░░
+
+Robotics
+██████████████░░░░░░░░░░░░░░░░░
+```
+
+---
+
+# 🌟 Philosophy
+
+> *"Great engineering isn't about building the most complicated thing—it's about solving real problems with elegant solutions."*
+
+> *"Every project is another step toward becoming the engineer I aspire to be."*
+
+---
+---
+
+# 📈 Coding Activity
+
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Soala7&theme=tokyo-night&hide_border=true"/>
+
+</div>
+
+---
+
+# 🐍 Contribution Snake
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/Soala7/Soala7/output/github-contribution-grid-snake-dark.svg"/>
+
+</div>
+
+---
+
+# 🎮 Fun Facts
+
+```python
+fun_facts = {
+    "favorite_language": "Python",
+    "currently_learning": [
+        "C",
+        "Assembly",
+        "Embedded Systems",
+        "Computer Vision",
+        "Linux",
+        "ROS 2"
+    ],
+    "favorite_field": "Robotics & Artificial Intelligence",
+    "dream": "Build intelligent systems that solve real-world problems at scale",
+    "favorite_project": "VirtualOS (VOS)",
+    "hobbies": [
+        "Building robots",
+        "Coding systems from scratch",
+        "Chess",
+        "Exploring how computers work under the hood"
+    ]
+}
+```
+
+---
+
+# 📬 Connect With Me
+
+<div align="center">
+
+<a href="mailto:nigaamace@gmail.com">
+<img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+</a>
+
+<a href="https://x.com/Soala7VA">
+<img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white"/>
+</a>
+
+<a href="https://www.tiktok.com/@thecodegambit">
+<img src="https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white"/>
+</a>
+
+<a href="https://github.com/Soala7">
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+
+</div>
+
+---
+
+# 💬 Engineering Quotes
+
+> *"Engineering is not about complexity—it is about clarity, precision, and purpose."*
+
+> *"The best way to predict the future is to build it."*
+
+> *"If you understand how something works, you can rebuild it better."*
+
+> *"Tomorrow is just today you failed to act on."*
+
+---
+
+# 🧭 My Engineering Journey
+
+```text
+2024
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Started programming with Python
+Learned basic logic, loops, and problem solving
+
+2025
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Built websites and desktop applications
+Started AI and computer vision projects
+Explored robotics and CAD design
+
+2026
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Began Mechatronics Engineering at Bells University
+Started building VirtualOS (VOS)
+Focused on embedded systems, Linux, and robotics
+Expanding into OS development and advanced AI systems
+```
+
+---
+
+# 🚀 Final Message
+
+<div align="center">
+
+### ⚡ "I don't just write code — I build systems."
+
+Every project in this profile is part of a larger goal:
+to understand, design, and build intelligent systems that bridge software, hardware, and real-world impact.
+
+<br>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000814,25:001F54,50:003566,75:005CFF,100:00BFFF&height=160&section=footer&text=Thanks%20for%20Visiting!&fontSize=32&fontColor=ffffff&fontAlignY=40"/>
+
+</div>
