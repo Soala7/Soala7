@@ -11,8 +11,6 @@
 
 <img src="https://komarev.com/ghpvc/?username=Soala7&label=Profile+Views&color=5A0000&style=flat-square"/>
 
-<img src="https://img.shields.io/badge/Federal%20University%20of%20Technology%20Owerri-A00000?style=flat-square"/>
-
 <img src="https://img.shields.io/badge/Mechatronics%20Engineering-C1121F?style=flat-square"/>
 
 <img src="https://img.shields.io/badge/Made%20in-Nigeria🇳🇬-D4AF37?style=flat-square"/>
@@ -90,8 +88,6 @@ Build technologies that improve people's lives through robotics and artificial i
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="45"/>
 
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" width="45"/>
-
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width="45"/>
 
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="45"/>
 
