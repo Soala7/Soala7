@@ -1,323 +1,485 @@
 <div align="center">
 
-<!-- Cyber Banner -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:200000,35:A00000,70:C1121F,100:FFD700&height=220&section=header&text=Soala%20Amachree&fontSize=48&fontColor=ffffff&fontAlignY=36&desc=Programmer%20%7C%20Mechatronics%20Engineering%20Student%20%7C%20Robotics%20Builder&descAlignY=58&descSize=18&animation=fadeIn" width="100%"/>
+<!-- ===================== Banner ===================== -->
 
-<!-- Typing Animation -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:200000,25:5A0000,50:A00000,75:C1121F,100:FFD700&height=230&section=header&text=Soala%20Amachree&fontSize=50&fontColor=ffffff&fontAlignY=35&desc=Mechatronics%20Engineering%20Student%20•%20Robotics%20Developer%20•%20AI%20Enthusiast&descAlignY=58&descSize=20&animation=fadeIn" width="100%"/>
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&duration=3500&pause=800&color=FFD700&center=true&vCenter=true&width=700&lines=Hey+there!+I'm+Soala7+👋;Mechatronics+Engineering+Student;Python+Developer+%7C+Robotics+Builder;AI+%7C+Fullstack+Developer+%7C+CAD+Designer;Engineering+my+way+toward+the+future+⚡" />
+<!-- ===================== Typing Animation ===================== -->
 
-<br>
+<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=22&duration=3500&pause=800&color=FFD700&center=true&vCenter=true&width=850&lines=Hi+there!+I'm+Soala+Amachree+👋;Mechatronics+Engineering+Student;Building+VirtualOS+(VOS)+from+Scratch;Python+Developer+•+Robotics+Builder;AI+•+Computer+Vision+•+Embedded+Systems;Engineering+Technology+that+Changes+Lives+⚡" />
 
-<img src="https://komarev.com/ghpvc/?username=Soala7&label=Profile+Views&color=5A0000&style=flat-square"/>
+<br><br>
 
-<img src="https://img.shields.io/badge/Mechatronics%20Engineering-C1121F?style=flat-square"/>
+<img src="https://komarev.com/ghpvc/?username=Soala7&label=Profile+Views&color=8B0000&style=for-the-badge"/>
 
-<img src="https://img.shields.io/badge/Made%20in-Nigeria🇳🇬-D4AF37?style=flat-square"/>
+<img src="https://img.shields.io/github/followers/Soala7?style=for-the-badge&logo=github"/>
 
-<img src="https://img.shields.io/github/followers/Soala7?label=Followers&style=social"/>
+<img src="https://img.shields.io/github/stars/Soala7?style=for-the-badge"/>
+
+<br><br>
+
+<img src="https://img.shields.io/badge/🇳🇬-Nigeria-008751?style=for-the-badge"/>
+
+<img src="https://img.shields.io/badge/🎓-Bells%20University%20of%20Technology-C1121F?style=for-the-badge"/>
+
+<img src="https://img.shields.io/badge/🤖-Mechatronics%20Engineering-FFD700?style=for-the-badge"/>
 
 </div>
 
 ---
 
-# 👨‍💻 About Me
+# 👋 About Me
 
 ```python
-INFO = {
+class SoalaAmachree:
 
-    "name": "Soala Amachree",
+    def __init__(self):
 
-    "username": "Soala7",
+        self.name = "Soala Amachree"
 
-    "location": "Nigeria 🇳🇬",
+        self.username = "Soala7"
 
-    "pronouns": "He/Him",
+        self.location = "Nigeria 🇳🇬"
 
-    "education": "B.Eng Mechatronics Engineering",
+        self.pronouns = "He/Him"
 
-    "interests": [
+        self.education = {
+            "institution": "Bells University of Technology",
+            "degree": "Bachelor of Engineering",
+            "major": "Mechatronics Engineering",
+            "status": "Currently Studying"
+        }
 
-        "Programming",
+        self.interests = [
+            "Artificial Intelligence",
+            "Robotics",
+            "Computer Vision",
+            "Operating Systems",
+            "Embedded Systems",
+            "Backend Development",
+            "Frontend Development",
+            "Automation",
+            "CAD Design",
+            "UI/UX Design"
+        ]
 
-        "Artificial Intelligence",
+        self.languages = [
+            "Python",
+            "C",
+            "JavaScript",
+            "HTML",
+            "CSS"
+        ]
 
-        "Robotics",
+        self.tools = [
+            "Git",
+            "GitHub",
+            "Linux",
+            "VS Code",
+            "Figma",
+            "Canva",
+            "Fusion 360",
+            "Onshape",
+            "KiCad",
+            "Arduino IDE"
+        ]
 
-        "Computer Vision",
+        self.current_projects = [
+            "VirtualOS (VOS)",
+            "School Management System",
+            "Python Chess Engine",
+            "AI Learning Chatbot"
+        ]
 
-        "Backend Development",
-        "Frontend Development",
+        self.goal = (
+            "Build intelligent machines and software "
+            "that improve people's lives."
+        )
 
-        "CAD Design"
-
-    ],
-
-    "currently": "Engineering my way toward the future—one robot, one line of code, and one breakthrough at a time.",
-
-    "motto": "There is no peace for a man wh has seen what he CAN become."
-
-}
-````
+        self.motto = (
+            "There is no peace for a man who has seen "
+            "what he CAN become."
+        )
+```
 
 ---
 
 # 🚀 Current Focus
 
 ```text
-🔭 Building robotics and automation projects
+🖥️ Building VirtualOS (VOS)
 
-🌱 Learning C, assembly, Embedded Systems & Computer Vision
+🤖 Developing robotics and automation systems
 
-🧠 Exploring AI, Robotics and Backend Development
+⚙️ Learning Embedded Systems & Computer Engineering
 
-⚡ Designing intelligent machines that solve real-world problems
+🧠 Exploring Artificial Intelligence & Computer Vision
 
-🎯 Long-term Goal:
-Build technologies that improve people's lives through robotics and artificial intelligence.
+🌐 Creating full-stack applications with modern UI/UX
+
+🎯 Contributing to Open Source projects
+
+📚 Expanding knowledge in C, Embedded Programming,
+Assembly, Linux, and Robotics
+
+💡 Designing technology that solves real-world problems
 ```
 
 ---
 
-# 🛠 Languages & Technologies
+# 🌟 What I'm Working On
+
+| 🚀 Project | Status | Description |
+|------------|--------|-------------|
+| 🖥️ **VirtualOS (VOS)** | 🚧 In Development | A cross-platform virtual operating system written in Python featuring its own kernel, desktop environment, virtual file system, applications, networking, security, and package manager. |
+| 🎓 **School Management System** | 🚧 Active | A complete academic management platform supporting student records, promotion, grading, WAEC/JAMB uploads, and teacher/admin dashboards. |
+| ♟️ **Python Chess Engine** | 🚧 Active | An advanced chess game featuring AI, animations, move validation, board flipping, sound effects, and game analysis. |
+| 🤖 **AI Learning Chatbot** | 🚧 Active | An intelligent chatbot designed to assist students learning Python through interactive conversations. |
+
+---
+
+# 💻 I Love Building
+
+- 🤖 Robotics Projects
+- 🧠 Artificial Intelligence Applications
+- 🖥️ Operating Systems
+- 🌐 Full-Stack Web Applications
+- ⚙️ Embedded Systems
+- 📱 User Interfaces
+- 🎨 CAD Models
+- 🔬 Engineering Solutions
+- ♟️ Python Applications
+- 🌍 Open Source Software
+  ---
+
+# 🛠️ Languages & Technologies
 
 <div align="center">
 
 ## 💻 Programming Languages
 
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="45"/>
-
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" width="45"/>
-
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="45"/>
-
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="45"/>
-
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="45"/>
-
----
-
-## 🤖 AI • Robotics
-
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg" width="45"/>
-
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="45"/>
-
-<img src="https://upload.wikimedia.org/wikipedia/commons/7/73/Arduino_IDE_logo.svg" width="45"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="50" title="Python"/>
+&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" width="50" title="C"/>
+&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="50" title="JavaScript"/>
+&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="50" title="HTML5"/>
+&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="50" title="CSS3"/>
 
 ---
 
-## ⚙ Engineering & CAD
+## 🤖 AI • Robotics • Computer Vision
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/5/59/KiCad-Logo.svg" width="70"/>
-
-<img src="https://cdn.simpleicons.org/autodesk" width="45" title="Fusion 360"/>
-
-<img src="https://cdn.simpleicons.org/onshape" width="45"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg" width="50" title="OpenCV"/>
+&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="50" title="Python"/>
+&nbsp;
+<img src="https://upload.wikimedia.org/wikipedia/commons/7/73/Arduino_IDE_logo.svg" width="50" title="Arduino IDE"/>
 
 ---
 
-## 🧰 Tools
+## ⚙️ Engineering & CAD
 
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="45"/>
+<img src="https://cdn.simpleicons.org/autodesk" width="50" title="Autodesk Fusion 360"/>
+&nbsp;
+<img src="https://cdn.simpleicons.org/onshape" width="50" title="Onshape"/>
+&nbsp;
+<img src="https://upload.wikimedia.org/wikipedia/commons/5/59/KiCad-Logo.svg" width="60" title="KiCad"/>
 
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="45"/>
+---
 
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="45"/>
+## 🎨 Design
 
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/canva/canva-original.svg" width="45"/>
+<img src="https://cdn.simpleicons.org/figma" width="50" title="Figma"/>
+&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/canva/canva-original.svg" width="50" title="Canva"/>
+
+---
+
+## 🧰 Development Tools
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="50" title="Git"/>
+&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="50" title="GitHub"/>
+&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="50" title="Visual Studio Code"/>
+&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="50" title="Linux"/>
 
 </div>
 
 ---
 
-# 🚀 Featured Projects
-
-| Project                                           | Description                                                                                                              | Tech                             |
-| ------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ | -------------------------------- |
-| 🤖 **Security Patrol Robot**                      | Autonomous surveillance robot capable of detecting human presence and monitoring restricted areas using computer vision. | Python • OpenCV • Arduino        |
-| 💡 **AI Smart Lighting System**                   | Object detection system that automatically switches lights based on human presence, improving energy efficiency.         | Python • OpenCV                  |
-| 💧 **Automatic Liquid Dispenser Vending Machine** | Contactless dispensing system designed for hygienic liquid distribution using embedded electronics.                      | Arduino • Sensors                |
-| 🎓 **School Management Website**                  | Responsive academic management platform for handling student records, results and administration.                        | HTML • CSS • JavaScript • Python |
-| 🎥 **Moving Dot Video Visualizer**                | Artistic video renderer that transforms videos into animated moving-dot visualizations using computer vision algorithms. | Python • OpenCV • Pygame         |
-| ⚙ **Mechanical CAD Designs**                      | Engineering assemblies, product concepts and precision mechanical designs built in Onshape, Fusion 360 and KiCad.        | CAD • PCB Design                 |
-
-🔗 **Explore all my projects:**
-https://github.com/Greysky41?tab=repositories
-
----
-```md
-...
-```
-
- 📊 GitHub Statistics
-
-<div align="center">
-
-<a href="https://github.com/Soala7">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Soala7&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=00000000&title_color=FFD700&icon_color=C1121F&text_color=F8F8F2"/>
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Soala7&layout=compact&hide_border=true&bg_color=00000000&title_color=FFD700&text_color=F8F8F2"/>
-</a>
-
-<br><br>
-
-<img src="https://streak-stats.demolab.com?user=Soala7&hide_border=true&background=00000000&ring=FFD700&fire=C1121F&currStreakLabel=FFD700&sideLabels=F8F8F2&dates=AAAAAA&currStreakNum=FFFFFF&sideNums=FFFFFF"/>
-
-<br><br>
-
-<img src="https://github-profile-trophy.vercel.app/?username=Soala7&theme=algolia&no-frame=true&no-bg=true&row=1&column=6"/>
-
-</div>
-```
-
-
-
-# 🏆 Achievements
-
-<div align="center">
-
-- Developed AI-powered computer vision systems
-
-- Designed mechanical components using professional CAD software
-
-- Built responsive web applications from scratch
-
-- Mechatronics Engineering Student 
-
-- Passionate about building technology that solves real-world problems
-
-</div>
-
----
-
-# 📚 Education
+# 📚 Currently Learning
 
 ```text
-🏫 Bells university
+🟢 C Programming
 
-Degree:
-Bachelor of Engineering (B.Eng)
+🟢 Embedded Systems
 
-Field:
-Mechatronics Engineering
+🟢 Assembly Language
 
-Status:
-Currently Studying
-````
+🟢 Computer Vision
 
----
+🟢 Linux
 
-# 📜 Certifications
+🟢 Robotics
 
-<div align="center">
+🟢 Artificial Intelligence
 
-<img src="https://img.shields.io/badge/-High%20School%20Diploma-5A0000?style=for-the-badge"/>
+🟢 Operating System Development
 
-<img src="https://img.shields.io/badge/-Python%20Programming-A00000?style=for-the-badge&logo=python&logoColor=white"/>
+🟢 Mechatronics Engineering
 
-<img src="https://img.shields.io/badge/-Git%20&%20GitHub-D4AF37?style=for-the-badge&logo=github"/>
+🟡 ROS 2 (Planned)
 
-<img src="https://img.shields.io/badge/-Arduino%20Programming-FFD700?style=for-the-badge&logo=arduino"/>
+🟡 Embedded Linux (Planned)
 
-</div>
-
----
-
-# 🎯 2026 Goals
-* Build my own OS
-
-* Build an autonomous mobile robot
-
-* Master Embedded Systems programming
-
-* Learn ROS 2
-
-* ⚙️ Design advanced robotic systems
-
-* 🌍 Contribute to Open Source
-
-* 🛰️ Build intelligent automation projects
-
-* 🎓 Graduate as an outstanding Mechatronics Engineer
-
----
-
-# 📈 Coding Activity
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Soala7&theme=tokyo-night&hide_border=true"/>
-
-</div>
-
----
-
-# 🐍 Contribution Snake
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/Soala7/Soala7/output/github-contribution-grid-snake-dark.svg"/>
-
-</div>
-
-> **Note:** This animation requires a GitHub Action to generate automatically.
-
----
-
-# 💡 Fun Facts
-
-```python
-fun_facts = {
-
-    "favorite_language": "Python",
-
-    "currently_learning": ["C", "assembly", "arduino"],
-
-    "favorite_field": "Robotics and software",
-
-    "dream": "Changes lives.",
-
-    "favorite_game": "Chess"
-
-}
+🟡 PCB Design
 ```
 
 ---
 
-# 📬 Connect With Me
+# ⚡ Core Skills
 
-<div align="center">
-
-<a href="mailto:nigaamace@gmail.com">
-<img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
-</a>
-
-<a href="https://x.com/Soala7VA">
-<img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white"/>
-</a>
-
-<a href="https://www.tiktok.com/@thecodegambit">
-<img src="https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white"/>
-</a>
-
-</div>
+| Category | Skills |
+|-----------|--------|
+| 💻 Programming | Python, C, JavaScript, HTML5, CSS3 |
+| 🤖 Artificial Intelligence | OpenCV, Computer Vision, Automation |
+| 🖥️ Software Development | Desktop Applications, Web Applications, GUI Development |
+| ⚙️ Engineering | Robotics, Embedded Systems, Mechatronics |
+| 🎨 Design | Figma, Canva, UI/UX Design |
+| 🛠️ CAD | Fusion 360, Onshape, KiCad |
+| 🌐 Version Control | Git, GitHub |
+| 🐧 Operating Systems | Windows, Linux |
+| 📚 Soft Skills | Problem Solving, Teamwork, Self-learning, Research |
 
 ---
 
+# 🌍 Areas of Interest
+
+```text
+🤖 Robotics
+
+🧠 Artificial Intelligence
+
+🖥️ Operating Systems
+
+⚙️ Embedded Systems
+
+📷 Computer Vision
+
+🔒 Cybersecurity
+
+⛓️ Blockchain Technology
+
+📊 Data Analysis
+
+🌐 Full-Stack Development
+
+🔬 Engineering Research
+
+🚀 Automation
+
+💡 Open Source
+```
+---
+
+# 🚀 Flagship Project
+
 <div align="center">
 
-## 💭 Quotes
+# 🖥️ VirtualOS (VOS)
 
-*"Coding is like Divinity you make computers do as you please!"*
+### *A Cross-Platform Virtual Operating System Built in Python*
 
-*"If you say " ILL DO IT TOMMOROW" you have alreagy lost today "*
+<img src="https://img.shields.io/badge/Status-In%20Development-orange?style=for-the-badge"/>
 
-<br>
+<img src="https://img.shields.io/badge/Language-Python-blue?style=for-the-badge"/>
 
-### Thanks for stopping by!
+<img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge"/>
 
-If you like my work, consider leaving a ⭐ on one of my repositories.
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000814,35:001F54,70:005CFF,100:00BFFF&height=140&section=footer"/>
+<img src="https://img.shields.io/badge/Open%20Source-Yes-success?style=for-the-badge"/>
 
 </div>
+
+VirtualOS (VOS) is my largest and most ambitious software engineering project.
+
+Rather than building another desktop application, I'm designing an entire virtual operating system from scratch using Python.
+
+The goal is to create a platform that manages its own virtual runtime while remaining cross-platform, allowing it to run on Windows and Linux as a normal application.
+
+### Planned Features
+
+- 🖥️ Boot Loader
+- ⚙️ Kernel
+- 📂 Virtual File System
+- 🪟 Desktop Environment
+- 🧩 Window Manager
+- 👤 User Accounts
+- 🔐 Security Layer
+- ⚡ Process Scheduler
+- 📦 Package Manager
+- 🌐 Networking
+- 📝 Built-in Applications
+- 🔌 Plugin System
+- 🎨 Themes & Personalization
+
+> **Current Status:** 🚧 Under Active Development
+
+---
+
+# 🌟 Featured Projects
+
+| Project | Status | Technologies |
+|----------|--------|--------------|
+| 🖥️ **VirtualOS (VOS)** | 🚧 In Development | Python |
+| 🎓 **School Management System** | 🚧 Active | Python • HTML • CSS • JavaScript |
+| ♟️ **Python Chess Engine** | 🚧 Active | Python • Pygame • python-chess |
+| 🤖 **AI Learning Chatbot** | 🚧 Active | Python |
+| 🌐 **Pet Supplies Website** | ✅ Completed | HTML • CSS • JavaScript |
+| 🍽️ **Catering Business Website** | ✅ Completed | HTML • CSS |
+| 🎥 **Moving Dot Video Visualizer** | ✅ Completed | Python • OpenCV |
+| ⚙️ **Mechanical CAD Projects** | 🚧 Ongoing | Fusion 360 • Onshape • KiCad |
+
+---
+
+## 🖥️ VirtualOS (VOS)
+
+🚧 **Status:** In Development
+
+### Overview
+
+A virtual operating system designed to simulate many core operating system components while remaining completely cross-platform.
+
+### Technologies
+
+- Python
+- Object-Oriented Programming
+- Modular Architecture
+- Custom Runtime
+- Git
+
+---
+
+## 🎓 School Management System
+
+🚧 **Status:** Active Development
+
+### Features
+
+- Student Records
+- Result Management
+- Promotion System
+- Teacher Dashboard
+- Admin Dashboard
+- WAEC Upload
+- JAMB Upload
+- Authentication
+- Responsive Interface
+
+### Technologies
+
+- Python
+- HTML5
+- CSS3
+- JavaScript
+
+---
+
+## ♟️ Python Chess Engine
+
+🚧 **Status:** Active Development
+
+### Features
+
+- Complete Chess Rules
+- AI Opponent
+- Move Validation
+- Piece Animations
+- Board Flipping
+- Sound Effects
+- Promotion Menu
+- Game Evaluation
+
+### Technologies
+
+- Python
+- Pygame
+- python-chess
+
+---
+
+## 🤖 AI Learning Chatbot
+
+🚧 **Status:** Active Development
+
+A chatbot designed to help students learn Python through intelligent conversations, explanations, and interactive assistance.
+
+### Technologies
+
+- Python
+
+---
+
+## 🌐 Pet Supplies Website
+
+✅ **Completed**
+
+Responsive e-commerce website built using modern HTML, CSS, and JavaScript.
+
+---
+
+## 🍽️ Catering Business Website
+
+✅ **Completed**
+
+Professional business website showcasing catering services with a modern responsive interface.
+
+---
+
+## 🎥 Moving Dot Video Visualizer
+
+✅ **Completed**
+
+Transforms videos into animated moving-dot artwork using computer vision algorithms.
+
+### Technologies
+
+- Python
+- OpenCV
+
+---
+
+## ⚙️ Mechanical CAD Projects
+
+🚧 **Ongoing**
+
+A growing collection of engineering designs, product concepts, mechanical assemblies, and PCB layouts.
+
+### Software Used
+
+- Fusion 360
+- Onshape
+- KiCad
+
+---
+
+# 🔬 Future Engineering Projects
+
+These are projects I plan to build as I continue learning Mechatronics Engineering.
+
+- 🤖 Autonomous Mobile Robot
+- 💡 AI Smart Lighting System
+- 🚔 Security Patrol Robot
+- 💧 Automatic Liquid Dispenser
+- 🦾 Robotic Arm
+- 🚁 Autonomous Drone
+- 📷 AI Vision Robot
+- 🏠 Smart Home Automation System
+
+> *Every project is an opportunity to learn something new and solve a real-world problem.*
+> *Anyone who says "I'll do it tomorrow" has already losed today*.
+---
