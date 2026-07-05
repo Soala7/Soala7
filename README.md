@@ -715,6 +715,10 @@ fun_facts = {
 <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white"/>
 </a>
 
+<a href="www.youtube.com/@Sk7R-bye">
+<img src="https://commons.wikimedia.org/wiki/File:YouTube_full-color_icon_(2017).svg&logo=x&logoColor=white"/>
+</a>
+
 <a href="https://www.tiktok.com/@thecodegambit">
 <img src="https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white"/>
 </a>
