@@ -210,6 +210,18 @@ Assembly, Linux, and Robotics
 
 </div>
 
+## 🎬 Content Creation & Media
+
+<div align="center">
+
+<img src="https://cdn.simpleicons.org/capcut" width="50" title="CapCut"/>
+&nbsp;
+<img src="https://cdn.simpleicons.org/kdenlive" width="50" title="Kdenlive"/>
+&nbsp;
+<img src="https://cdn.simpleicons.org/audacity" width="50" title="Audacity"/>
+
+</div>
+
 ---
 
 # 📚 Currently Learning
@@ -703,31 +715,55 @@ fun_facts = {
 
 ---
 
+---
+
 # 📬 Connect With Me
 
 <div align="center">
 
 <a href="mailto:nigaamace@gmail.com">
-<img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
-</a>
-
-<a href="https://x.com/Soala7VA">
-<img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white"/>
-</a>
-
-<a href="www.youtube.com/@Sk7R-bye">
-<img src="[https://img.shields.io/youtube/channel/subscribers/:channelId"/>
-</a>
-
-<a href="https://www.tiktok.com/@thecodegambit">
-<img src="https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
 </a>
 
 <a href="https://github.com/Soala7">
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+</a>
+
+<a href="https://x.com/Soala7VA">
+    <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X"/>
+</a>
+
+<a href="https://www.linkedin.com/in/soala-amachree">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+</a>
+
+<a href="https://www.instagram.com/the.code.gambit">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/>
+</a>
+
+<a href="https://www.youtube.com/@Sk7R-bye">
+    <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube"/>
+</a>
+
+<a href="https://www.tiktok.com/@thecodegambit">
+    <img src="https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white" alt="TikTok"/>
+</a>
+
+<a href="https://www.fiverr.com/s7king">
+    <img src="https://img.shields.io/badge/Fiverr-1DBF73?style=for-the-badge&logo=fiverr&logoColor=white" alt="Fiverr"/>
 </a>
 
 </div>
+
+---
+
+### 💬 Let's Connect!
+
+I'm always open to discussing:
+
+🤖 Robotics • 🧠 Artificial Intelligence • 💻 Python Development • ⚙️ Mechatronics • 🌐 Open Source • 🚀 Software Engineering • 🎨 UI/UX Design
+
+Whether it's collaborating on a project, contributing to open source, or simply talking about technology, feel free to reach out!
 
 ---
 
