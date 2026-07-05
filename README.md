@@ -716,7 +716,7 @@ fun_facts = {
 </a>
 
 <a href="www.youtube.com/@Sk7R-bye">
-<img src="https://commons.wikimedia.org/wiki/File:YouTube_full-color_icon_(2017).svg&logo=x&logoColor=white"/>
+<img src="[https://img.shields.io/youtube/channel/subscribers/:channelId"/>
 </a>
 
 <a href="https://www.tiktok.com/@thecodegambit">
