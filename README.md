@@ -152,11 +152,21 @@ Assembly, Linux, and Robotics
 - 🌍 Open Source Software
   ---
 
-# 🛠️ Languages & Technologies
+---
+
+# 🛠️ Languages • Technologies • Tools
 
 <div align="center">
 
+> *The technologies, software, and tools I use to design, build, and engineer modern applications and intelligent systems.*
+
+</div>
+
+---
+
 ## 💻 Programming Languages
+
+<div align="center">
 
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="50" title="Python"/>
 &nbsp;
@@ -168,19 +178,25 @@ Assembly, Linux, and Robotics
 &nbsp;
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="50" title="CSS3"/>
 
+</div>
+
 ---
 
 ## 🤖 AI • Robotics • Computer Vision
 
+<div align="center">
+
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg" width="50" title="OpenCV"/>
-&nbsp;
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="50" title="Python"/>
 &nbsp;
 <img src="https://upload.wikimedia.org/wikipedia/commons/7/73/Arduino_IDE_logo.svg" width="50" title="Arduino IDE"/>
 
+</div>
+
 ---
 
-## ⚙️ Engineering & CAD
+## ⚙️ Engineering • CAD
+
+<div align="center">
 
 <img src="https://cdn.simpleicons.org/autodesk" width="50" title="Autodesk Fusion 360"/>
 &nbsp;
@@ -188,29 +204,23 @@ Assembly, Linux, and Robotics
 &nbsp;
 <img src="https://upload.wikimedia.org/wikipedia/commons/5/59/KiCad-Logo.svg" width="60" title="KiCad"/>
 
+</div>
+
 ---
 
-## 🎨 Design
+## 🎨 UI/UX & Graphic Design
+
+<div align="center">
 
 <img src="https://cdn.simpleicons.org/figma" width="50" title="Figma"/>
 &nbsp;
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/canva/canva-original.svg" width="50" title="Canva"/>
 
----
-
-## 🧰 Development Tools
-
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="50" title="Git"/>
-&nbsp;
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="50" title="GitHub"/>
-&nbsp;
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="50" title="Visual Studio Code"/>
-&nbsp;
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="50" title="Linux"/>
-
 </div>
 
-## 🎬 Content Creation & Media
+---
+
+## 🎬 Content Creation
 
 <div align="center">
 
@@ -224,7 +234,33 @@ Assembly, Linux, and Robotics
 
 ---
 
-# 📚 Currently Learning
+## 🧰 Development Tools
+
+<div align="center">
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="50" title="Git"/>
+&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="50" title="GitHub"/>
+&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="50" title="Visual Studio Code"/>
+
+</div>
+
+---
+
+## 🖥️ Operating Systems
+
+<div align="center">
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="50" title="Linux"/>
+&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg" width="50" title="Windows"/>
+
+</div>
+
+---
+
+## 📚 Currently Learning
 
 ```text
 🟢 C Programming
@@ -245,13 +281,14 @@ Assembly, Linux, and Robotics
 
 🟢 Mechatronics Engineering
 
-🟡 ROS 2 (Planned)
+🟡 ROS 2
 
-🟡 Embedded Linux (Planned)
+🟡 Embedded Linux
 
 🟡 PCB Design
 ```
 
+---
 ---
 
 # ⚡ Core Skills
