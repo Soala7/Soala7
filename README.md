@@ -340,7 +340,7 @@ Tools:
 
 # 📚 Currently Learning
 
-```text
+
 🟢 Advanced C Programming
 
 🟢 Linux System Programming
@@ -365,7 +365,8 @@ Tools:
 
 🟡 PCB Design
 
-💡 Areas of Interest 
+
+#💡 Areas of Interest 
 
 🤖 Robotics
 
@@ -447,8 +448,7 @@ Tools:
 ---
 
 # 🧭 My Engineering Journey
-
-```text
+```
 2024
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -485,8 +485,9 @@ Future
 Continue building intelligent systems
 that connect software, hardware,
 and real-world engineering.
-
+```
 📈 Learning Roadmap
+```
 Python
 ███████████████████████████░░
 
@@ -510,17 +511,17 @@ Robotics
 
 CAD Design
 ██████████████████░░░░░░░░░░
-
+```
 🌟 Philosophy
-
+```
 "Great engineering is not only about creating complex systems — it is about understanding problems and building meaningful solutions."
 
 "Every project is an opportunity to learn, experiment, and improve."
 
 "The best way to understand technology is to build it."
-
+```
 🚀 Final Vision
-
+```
 My goal is to become an engineer capable of designing complete systems:
 
 From software and artificial intelligence,
@@ -528,7 +529,7 @@ to electronics, robotics, and mechanical design.
 
 By combining different engineering fields,
 I hope to create technology that solves real-world problems.
-
+```
 # 📊 GitHub Statistics
 
 <div align="center">
@@ -610,20 +611,21 @@ Build technology.
 Combine software and hardware.
 
 Create solutions that improve lives.
-
+```
 🚀 Final Message
 <div align="center">
 ⚡ "I don't just write code — I build systems."
 
 Every project I create is part of a larger journey:
-
+```
 Understanding how technology works,
 designing better solutions,
 and building intelligent systems
 that connect software, hardware, and the real world.
-
+```
 <br> <img src="https://capsule-render.vercel.app/api?type=waving&color=0:001F54,25:003566,50:005CFF,75:00BFFF,100:FFFFFF&height=160&section=footer&text=Thanks%20for%20Visiting!&fontSize=32&fontColor=ffffff&fontAlignY=40"/> </div> ```
 Final README structure after all 5 batches:
+```
 Header
 │
 ├── About Me
@@ -649,6 +651,7 @@ Header
 ├── Contact
 │
 └── Final Vision
+```
 
 
-
+```
