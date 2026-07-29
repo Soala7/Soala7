@@ -17,8 +17,6 @@
 
 
 # 👋 About Me
-
-```python
 class SoalaAmachree:
 
     def __init__(self):
@@ -60,10 +58,20 @@ class SoalaAmachree:
             "Arduino"
         ]
 
+        self.current_projects = [
+            "VirtualOS (VOS)",
+            "Project Hollow",
+            "School Management System",
+            "AI Learning Chatbot"
+        ]
+
         self.goal = (
             "Build intelligent systems that connect "
             "software, hardware, and the real world."
         )
+---
+
+# 🚀 Current Focus
 
 🖥️ Developing VirtualOS (VOS)
    An operating system simulator exploring
