@@ -1,10 +1,10 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:001F54,50:005CFF,100:00BFFF&height=220&section=header&text=SOALA%20AMACHREE&fontSize=52&fontColor=ffffff&fontAlignY=35&desc=MECHATRONICS%20ENGINEERING%20%7C%20SYSTEMS%20%7C%20ROBOTICS%20%7C%20AI&descAlignY=58&descSize=17&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:001F54,50:005CFF,100:00BFFF&height=230&section=header&text=SOALA%20AMACHREE&fontSize=54&fontColor=ffffff&fontAlignY=34&desc=MECHATRONICS%20%7C%20SYSTEMS%20%7C%20ROBOTICS%20%7C%20AI&descAlignY=57&descSize=18&animation=fadeIn" width="100%"/>
 
-<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=21&duration=3000&pause=900&color=00BFFF&center=true&vCenter=true&width=850&lines=Mechatronics+Engineering+Student;Systems+%26+Software+Developer;Building+VirtualOS+(VOS);Exploring+Operating+Systems+%26+Virtualization;Robotics+%7C+AI+%7C+Embedded+Systems;Building+technology+from+the+ground+up"/>
+<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=21&duration=2800&pause=700&color=00BFFF&center=true&vCenter=true&width=900&lines=Mechatronics+Engineering+Student;Systems+%26+Software+Developer;Building+VirtualOS+(VOS);Exploring+Operating+Systems+%26+Virtualization;Robotics+%7C+AI+%7C+Embedded+Systems;Turning+ideas+into+working+systems"/>
 
-<br>
+<br><br>
 
 <img src="https://komarev.com/ghpvc/?username=Soala7&label=PROFILE+VIEWS&color=005CFF&style=for-the-badge"/>
 <img src="https://img.shields.io/github/followers/Soala7?style=for-the-badge&logo=github"/>
@@ -14,155 +14,278 @@
 
 ---
 
-# About Me
+## ⚡ SYSTEM STATUS
 
-I'm **Soala Amachree**, a Mechatronics Engineering student focused on building systems that combine **software, hardware, artificial intelligence, and robotics**.
+<div align="center">
 
-My approach is simple:
+<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=17&duration=1800&pause=400&color=00BFFF&center=true&vCenter=true&width=700&lines=%5BSYSTEM%5D+Initializing+engineering+environment...;%5BCPU%5D+Systems+development+%5BONLINE%5D;%5BVM%5D+Virtualization+research+%5BONLINE%5D;%5BAI%5D+Machine+learning+%5BACTIVE%5D;%5BROBOTICS%5D+Embedded+systems+%5BACTIVE%5D;%5BVOS%5D+Kernel+development+%5BIN+PROGRESS%5D"/>
 
-> **Learn by building. Understand how systems work. Then build them better.**
+</div>
 
-My main interests are:
+> **Build it. Break it. Understand it. Build it better.**
 
-* Operating Systems & Systems Programming
-* Virtualization & Computer Architecture
-* Robotics & Automation
-* Artificial Intelligence
-* Computer Vision
-* Embedded Systems
-* Electronics
-* Software Engineering
+I'm **Soala Amachree**, a Mechatronics Engineering student interested in the space where **software, hardware, intelligence and machines meet**.
+
+I don't want to only use technology.
+
+I want to understand **what happens underneath it** — from code and circuits all the way down to processors, memory, operating systems, robots and intelligent machines.
 
 ---
 
-# Featured Project
+# 🧠 What I'm Building
 
-## 🖥️ VirtualOS (VOS)
+```text
+                 ┌─────────────────────┐
+                 │      HUMAN IDEA     │
+                 └──────────┬──────────┘
+                            │
+                            ▼
+                 ┌─────────────────────┐
+                 │    SOFTWARE / AI    │
+                 └──────────┬──────────┘
+                            │
+                            ▼
+                 ┌─────────────────────┐
+                 │   SYSTEMS / OS      │
+                 └──────────┬──────────┘
+                            │
+                            ▼
+                 ┌─────────────────────┐
+                 │ EMBEDDED / ELECTRON │
+                 └──────────┬──────────┘
+                            │
+                            ▼
+                 ┌─────────────────────┐
+                 │ ROBOTICS / MACHINES │
+                 └─────────────────────┘
+```
+
+My long-term goal is to understand enough of each layer to build **complete intelligent systems**, rather than treating software, electronics and mechanics as isolated fields.
+
+---
+
+# 🖥️ VirtualOS — VOS
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/PROJECT-VirtualOS-001F54?style=for-the-badge&logo=linux&logoColor=white"/>
+<img src="https://img.shields.io/badge/STATUS-Phase%202%20%7C%20In%20Development-005CFF?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/FOCUS-Operating%20Systems-00BFFF?style=for-the-badge"/>
+
+</div>
 
 **VirtualOS is my main systems project.**
 
-What started as a Python operating-system simulator is evolving toward a more realistic **virtual machine and operating system architecture**.
+It started as a Python operating-system simulator and is now evolving into a much more realistic **virtual machine + operating system architecture**.
 
-### Phase 1 — Simulator
+The objective isn't to make a fake desktop.
 
-Built to understand operating-system concepts:
+The objective is to learn how the pieces of a real computer system fit together.
 
-* Virtual filesystem
-* Desktop environment
-* Window management
-* Terminal
-* Application framework
-* Persistent storage
-* System services
-
-### Phase 2 — Real VM Architecture
-
-Currently moving toward:
+### Phase 1 — Simulator ✅
 
 ```text
-Host OS
-   │
-   ▼
-Gorgon Launcher
-   │
-   ▼
-QEMU + Host Virtualization
-   │
-   ▼
-Gorgon Bootloader
-   │
-   ▼
-Gorgon Kernel
-   │
-   ├── Memory Management
-   ├── Processes
-   ├── Scheduling
-   ├── Filesystem
-   ├── Drivers
-   ├── Networking
-   └── System Calls
+Virtual Desktop
+      │
+      ├── Window Manager
+      ├── File Explorer
+      ├── Terminal
+      ├── Text Editor
+      ├── Application System
+      ├── Virtual Filesystem
+      ├── Persistent Storage
+      └── System Services
 ```
 
-The goal is not simply to simulate an operating system, but to understand **how real systems are designed and built**.
+### Phase 2 — Real VM Architecture 🚧
+
+```text
+┌───────────────────────────────┐
+│           HOST OS             │
+└───────────────┬───────────────┘
+                │
+                ▼
+┌───────────────────────────────┐
+│       GORGON LAUNCHER         │
+│             C++               │
+└───────────────┬───────────────┘
+                │
+                ▼
+┌───────────────────────────────┐
+│          QEMU + KVM           │
+│                               │
+│  Virtual CPU                  │
+│  Virtual Memory               │
+│  Virtual Disk                 │
+│  Virtual NIC                  │
+│  Virtual Display              │
+└───────────────┬───────────────┘
+                │
+                ▼
+┌───────────────────────────────┐
+│       GORGON BOOTLOADER       │
+└───────────────┬───────────────┘
+                │
+                ▼
+┌───────────────────────────────┐
+│         GORGON KERNEL         │
+│                               │
+│  Memory Management            │
+│  Virtual Memory               │
+│  Page Tables                  │
+│  Processes                    │
+│  Scheduler                    │
+│  Filesystem / VFS             │
+│  Drivers                      │
+│  Interrupts                   │
+│  Networking                   │
+│  System Calls                 │
+└───────────────────────────────┘
+```
+
+### The bigger idea
+
+Eventually:
+
+```text
+                    VOS
+                     │
+        ┌────────────┼────────────┐
+        ▼            ▼            ▼
+     Desktop        Apps       Services
+        │            │            │
+        └────────────┼────────────┘
+                     ▼
+                  Runtime
+                     │
+             ┌───────┴───────┐
+             ▼               ▼
+         Chromium         Python
+          Runtime         Runtime
+             │               │
+             └───────┬───────┘
+                     ▼
+                   Kernel
+                     │
+                     ▼
+              Virtual Hardware
+                     │
+                     ▼
+                  QEMU/KVM
+```
 
 ---
 
 # 🌌 Project Hollow
 
-A long-term computing environment concept inspired by the lessons learned from VOS.
+**Hollow is the long-term vision.**
 
-Project Hollow explores:
+Where VOS is the engineering project I'm actively building, **Project Hollow explores what a complete personal computing environment could become.**
+
+Areas I'm exploring include:
 
 * Virtualized environments
-* Secure sandboxing
-* Developer workflows
-* Custom desktop environments
-* Application management
+* Sandboxing
 * System isolation
-* Modern computing architecture
-
-**VOS is the current engineering project. Hollow is the long-term vision.**
-
----
-
-# 🛠️ Tech Stack
-
-### Programming
-
-<div align="center">
-
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="45"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" width="45"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width="45"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="45"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="45"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="45"/>
-
-</div>
-
-### Systems & Development
-
-`Linux` · `GCC` · `GDB` · `Git` · `GitHub` · `CMake` · `QEMU` · `KVM` · `SDL2`
-
-### AI & Computer Vision
-
-`Python` · `OpenCV` · `Machine Learning` · `Computer Vision`
-
-### Robotics & Engineering
-
-`Arduino` · `Embedded Systems` · `Electronics` · `KiCad` · `Fusion 360` · `CAD` · `Automation`
-
----
-
-# 📚 Currently Learning
+* Developer environments
+* Application runtimes
+* Custom desktop experiences
+* Secure computing
+* Automation
+* AI-assisted workflows
 
 ```text
-Advanced C
-Linux System Programming
-Operating System Development
-Computer Architecture
-QEMU & Virtualization
-Assembly
-C++
-Embedded Systems
-Robotics
-Artificial Intelligence
-Computer Vision
-Rust
-ROS 2
-Embedded Linux
+VOS
+ │
+ ├── Kernel
+ ├── Runtime
+ ├── Desktop
+ ├── Applications
+ └── Virtual Hardware
+          │
+          ▼
+       HOLLOW
+          │
+          ├── Intelligent Computing
+          ├── Secure Environments
+          ├── Developer Infrastructure
+          └── Human + Machine Interaction
 ```
 
 ---
 
-# 🚀 Other Projects
+# 🛠️ Engineering Stack
 
-| Project                     | Description                                      |
-| --------------------------- | ------------------------------------------------ |
-| ♟️ Python Chess             | Chess application with move validation and AI    |
-| 🎓 School Management System | Student records, grading and academic management |
-| 🤖 AI Projects              | Experiments with AI and computer vision          |
-| 🔧 Electronics Projects     | Embedded and hardware experimentation            |
+### Languages
+
+<div align="center">
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="48"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" width="48"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width="48"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="48"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="48"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="48"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-original.svg" width="48"/>
+
+</div>
+
+### Systems
+
+`Linux` · `C` · `C++` · `Assembly` · `GCC` · `GDB` · `CMake` · `QEMU` · `KVM` · `SDL2` · `Docker`
+
+### AI
+
+`Python` · `Machine Learning` · `OpenCV` · `Computer Vision` · `PyTorch` · `TensorFlow`
+
+### Robotics & Engineering
+
+`Arduino` · `Embedded Systems` · `Electronics` · `KiCad` · `Fusion 360` · `CAD` · `Automation` · `Robotics`
+
+### Development
+
+`Git` · `GitHub` · `VS Code` · `React` · `Tailwind` · `Flask` · `Django`
+
+---
+
+# 🔬 Currently Exploring
+
+```text
+┌─────────────────────────────────────────┐
+│          CURRENT LEARNING QUEUE         │
+├─────────────────────────────────────────┤
+│                                         │
+│  > Advanced C                           │
+│  > C++                                  │
+│  > Linux System Programming             │
+│  > Operating System Development         │
+│  > Computer Architecture                │
+│  > Assembly                             │
+│  > QEMU / Virtualization                │
+│  > Embedded Systems                     │
+│  > Robotics                             │
+│  > Artificial Intelligence              │
+│  > Computer Vision                      │
+│  > Rust                                 │
+│  > ROS 2                                │
+│  > Embedded Linux                       │
+│  > Docker                               │
+│                                         │
+└─────────────────────────────────────────┘
+```
+
+---
+
+# 🚀 Projects
+
+| Project                         | What it does                                     |
+| ------------------------------- | ------------------------------------------------ |
+| 🖥️ **VirtualOS**               | Experimental operating-system / VM architecture  |
+| 🌌 **Project Hollow**           | Long-term intelligent computing environment      |
+| ♟️ **Python Chess**             | Chess application with legal moves and AI        |
+| 🎓 **School Management System** | Student records, grading and academic management |
+| 🤖 **AI Projects**              | Machine learning and computer vision experiments |
+| 🔧 **Electronics Projects**     | Embedded and hardware experimentation            |
 
 ---
 
@@ -171,81 +294,90 @@ Embedded Linux
 ```text
 2024
  │
- └── Started programming with Python
-          │
-2025      │
- │        ├── Built applications and games
- │        ├── Explored AI & Computer Vision
- │        └── Started engineering projects
+ ├── Python
+ ├── Programming fundamentals
+ └── First software projects
+       │
+       ▼
+2025
  │
-2026      │
- │        ├── Started Mechatronics Engineering
- │        ├── Built VirtualOS
- │        ├── Started C & systems programming
- │        └── Began real VM/OS development
+ ├── Applications & games
+ ├── AI & Computer Vision
+ ├── Electronics
+ └── Engineering projects
+       │
+       ▼
+2026
  │
-Future    │
- │        └── Build intelligent systems combining
- │            software, hardware, AI & robotics
+ ├── Mechatronics Engineering
+ ├── C / C++
+ ├── Linux
+ ├── VirtualOS
+ ├── Systems Programming
+ ├── Computer Architecture
+ └── QEMU / Virtualization
+       │
+       ▼
+ FUTURE
+ │
+ ├── Advanced OS development
+ ├── Robotics
+ ├── AI
+ ├── Embedded Systems
+ ├── Intelligent Machines
+ └── Full-stack engineering
 ```
 
 ---
 
-# 🎯 Long-Term Direction
+# ⚙️ My Engineering Philosophy
 
-My goal is to become an engineer capable of designing **complete intelligent systems**.
+I like learning technology from the **inside out**.
 
 ```text
-Software
-    ↓
-Systems
-    ↓
-Artificial Intelligence
-    ↓
-Embedded Systems
-    ↓
-Electronics
-    ↓
-Robotics
-    ↓
-Mechanical Engineering
+        APPLICATION
+             ▲
+             │
+          RUNTIME
+             ▲
+             │
+         OPERATING
+          SYSTEM
+             ▲
+             │
+          KERNEL
+             ▲
+             │
+       COMPUTER ARCH.
+             ▲
+             │
+          HARDWARE
+             ▲
+             │
+      PHYSICAL WORLD
 ```
 
-I want to understand each layer individually — and eventually build systems where **all of them work together**.
+The deeper I go, the more interesting it gets.
 
 ---
 
-# 💡 Areas of Interest
+# 🎯 Where I'm Going
 
-**Systems**
+I don't want to be limited to one side of engineering.
 
-* Operating Systems
-* Computer Architecture
-* Virtualization
-* Systems Programming
-* Cybersecurity
+I want to become the kind of engineer who can move between:
 
-**Engineering**
+**Code → Systems → Electronics → Embedded → AI → Robotics → Machines**
 
-* Robotics
-* Automation
-* Embedded Systems
-* Electronics
-* Mechanical Design
+and understand how they connect.
 
-**Intelligence**
-
-* Artificial Intelligence
-* Machine Learning
-* Computer Vision
+Eventually, I want to build technology where those layers aren't separate projects — they're **one system**.
 
 ---
 
-# 📊 GitHub Statistics
+# 📊 GitHub
 
 <div align="center">
-
-### GitHub Stats
 
 <a href="https://github.com/Soala7">
 
@@ -257,22 +389,17 @@ I want to understand each layer individually — and eventually build systems wh
 
 <br><br>
 
-### Contribution Streak
-
 <img src="https://streak-stats.demolab.com?user=Soala7&theme=dark&hide_border=true&background=0D1117&ring=00BFFF&fire=005CFF&currStreakLabel=00BFFF"/>
 
 <br><br>
-
-### GitHub Trophies
 
 <img src="https://github-profile-trophy.vercel.app/?username=Soala7&theme=algolia&no-frame=true&no-bg=true&row=2&column=4"/>
 
 </div>
 
-
 ---
 
-# 📬 Connect
+# 📡 CONNECT
 
 <div align="center">
 
@@ -298,13 +425,24 @@ I want to understand each layer individually — and eventually build systems wh
 
 <div align="center">
 
-### "The best way to understand technology is to build it."
+### `> BUILDING SYSTEMS, NOT JUST SOFTWARE.`
 
-**I don't just want to use systems.
-I want to understand them, design them, and build them.**
+<br>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:001F54,50:005CFF,100:00BFFF&height=130&section=footer&animation=fadeIn"/>
+**I don't just want to use systems.**
+
+**I want to understand them.**
+
+**Design them.**
+
+**Build them.**
+
+<br>
+
+<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=18&duration=2500&pause=800&color=00BFFF&center=true&vCenter=true&width=700&lines=Software+%E2%86%92+Systems+%E2%86%92+Hardware;AI+%E2%86%92+Embedded+%E2%86%92+Robotics;Learning+%E2%86%92+Building+%E2%86%92+Understanding;The+journey+is+just+beginning."/>
+
+<br><br>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:001F54,50:005CFF,100:00BFFF&height=140&section=footer&animation=fadeIn"/>
 
 </div>
-
-
