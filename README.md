@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:001F54,50:005CFF,100:00BFFF&height=230&section=header&text=SOALA%20AMACHREE&fontSize=54&fontColor=ffffff&fontAlignY=34&desc=MECHATRONICS%20%7C%20SYSTEMS%20%7C%20ROBOTICS%20%7C%20AI&descAlignY=57&descSize=18&animation=fadeIn" width="100%"/>
 
-<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=21&duration=2800&pause=700&color=00BFFF&center=true&vCenter=true&width=950&lines=Mechatronics+Engineering+Student;Systems+%26+Software+Developer;Building+Gorgon+VirtualOS;Operating+Systems+%7C+Virtualization+%7C+Computer+Architecture;Robotics+%7C+AI+%7C+Embedded+Systems;Software+%E2%86%92+Systems+%E2%86%92+Hardware;Turning+ideas+into+working+systems"/>
+<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=21&duration=2800&pause=700&color=00BFFF&center=true&vCenter=true&width=950&lines=Mechatronics+Engineering+Student;Systems+%26+Software+Developer;Building+Gorgon;Operating+Systems+%7C+Virtualization+%7C+Computer+Architecture;Robotics+%7C+AI+%7C+Embedded+Systems;Software+%E2%86%92+Systems+%E2%86%92+Hardware;Turning+ideas+into+working+systems"/>
 
 <br><br>
 
@@ -18,7 +18,7 @@
 
 <div align="center">
 
-<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=17&duration=1800&pause=400&color=00BFFF&center=true&vCenter=true&width=850&lines=%5BSYSTEM%5D+Engineering+environment+initialized;%5BCPU%5D+Systems+development+%5BONLINE%5D;%5BOS%5D+Gorgon+kernel+development+%5BIN+PROGRESS%5D;%5BVM%5D+QEMU%2FKVM+virtualization+%5BACTIVE%5D;%5BAI%5D+Machine+learning+%5BACTIVE%5D;%5BROBOTICS%5D+Embedded+systems+%5BACTIVE%5D;%5BHARDWARE%5D+Mechatronics+%5BONLINE%5D"/>
+<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=17&duration=1800&pause=400&color=00BFFF&center=true&vCenter=true&width=850&lines=%5BSYSTEM%5D+Engineering+environment+initialized;%5BCPU%5D+Systems+development+%5BONLINE%5D;%5BOS%5D+Gorgon+development+%5BIN+PROGRESS%5D;%5BVM%5D+QEMU%2FKVM+virtualization+%5BACTIVE%5D;%5BAI%5D+Machine+learning+%5BACTIVE%5D;%5BROBOTICS%5D+Embedded+systems+%5BACTIVE%5D;%5BHARDWARE%5D+Mechatronics+%5BONLINE%5D"/>
 
 </div>
 
@@ -76,33 +76,49 @@ I like understanding systems **from the inside out**.
 
 ---
 
-# 🖥️ GORGON — VIRTUALOS
+# 🖥️ GORGON
 
 <div align="center">
 
 <img src="https://img.shields.io/badge/PROJECT-GORGON-001F54?style=for-the-badge&logo=linux&logoColor=white"/>
-<img src="https://img.shields.io/badge/PHASE-2%20%7C%20REAL%20OS%20DEVELOPMENT-005CFF?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/FOCUS-KERNEL%20%7C%20VIRTUALIZATION%20%7C%20SYSTEMS-00BFFF?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/FOCUS-SYSTEMS%20%7C%20OS%20%7C%20LINUX%20%7C%20VIRTUALIZATION-005CFF?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/VISION-SOFTWARE%20%E2%86%92%20SYSTEMS%20%E2%86%92%20HARDWARE-00BFFF?style=for-the-badge"/>
 
 </div>
 
-**Gorgon is my main systems project.**
+**Gorgon is a long-term systems engineering project consisting of three separate repositories and three distinct systems.**
 
-It began as a Python/Pygame operating-system simulator.
+They share a common vision, but **Phase 1 is not upgraded into Phase 2, and Phase 2 is not upgraded into Phase 3.**
 
-Phase 1 proved the **desktop and user experience**.
+Each phase answers a different engineering question:
 
-Phase 2 is about building the **actual operating system underneath it**.
+```text
+PHASE 1
+"Can I design and simulate the operating-system experience?"
+              │
+              ▼
+PHASE 2
+"Can I actually build an operating system?"
+              │
+              ▼
+PHASE 3
+"Can I create a practical Linux distribution around
+ the ideas, tools and experience I've developed?"
+```
 
-The goal is not to create a fake desktop.
+The overall direction is:
 
-The goal is to understand and build the layers that make a real computer system work.
+**Simulation → Operating System → Linux Distribution**
 
 ---
 
-## Phase 1 — VirtualOS Simulator ✅
+# 🧪 PHASE 1 — GORGON VIRTUALOS
 
-The first version explored the operating-system experience in Python:
+**Separate repository · Python · Pygame · Completed**
+
+Phase 1 is a **virtual operating-system simulator**.
+
+Its purpose was to explore the desktop experience, application architecture, filesystem concepts and system interaction without implementing a real kernel.
 
 ```text
 ┌────────────────────────────────────┐
@@ -121,13 +137,23 @@ The first version explored the operating-system experience in Python:
 └────────────────────────────────────┘
 ```
 
-Phase 1 is now the **UX reference and experimental environment** for the real system.
+### Phase 1 Goal
+
+**Explore the user experience before attempting the operating-system engineering underneath it.**
+
+Phase 1 now serves as a **UX reference and experimental environment** for ideas that may influence the later systems.
 
 ---
 
-# ⚙️ Phase 2 — Real Gorgon OS 🚧
+# ⚙️ PHASE 2 — GORGON OPERATING SYSTEM
 
-Gorgon Phase 2 is being built around a real bootable x86-64 operating-system architecture.
+**Separate repository · C · C++ · Assembly · x86-64 · Real OS Development**
+
+Phase 2 is a completely separate project.
+
+This is where Gorgon becomes an actual **bootable operating system with its own kernel, boot process, userspace, drivers and system architecture.**
+
+It is **not the Python simulator rewritten in another language.**
 
 ```text
 HOST COMPUTER
@@ -194,7 +220,7 @@ HOST COMPUTER
 └────────────────────────────────────┘
 ```
 
-### The important distinction
+### The compatibility model
 
 ```text
 GORGON NATIVE PROGRAM
@@ -227,15 +253,13 @@ LINUX SOFTWARE
  GORGON KERNEL
 ```
 
-**POSIX compatibility helps software portability, but it does not automatically make Gorgon a Linux system.**
+**POSIX compatibility does not make Gorgon Linux.**
 
-Linux compatibility will therefore be treated as a separate compatibility layer.
+Linux compatibility is therefore treated as a separate compatibility layer.
 
 ---
 
-# 🧩 GORGON DEVELOPMENT STRATEGY
-
-Gorgon is being developed through four major stages.
+# 🧩 PHASE 2 DEVELOPMENT STRATEGY
 
 ```text
 ┌─────────────────────────────────────┐
@@ -302,11 +326,7 @@ Gorgon is being developed through four major stages.
 
 # 🎨 GORGON UI & ASSET SYSTEM
 
-Gorgon isn't just about the kernel.
-
-The userspace is intended to have a **custom desktop environment and graphics stack**.
-
-### System Assets
+The real Gorgon OS is intended to have a **custom desktop, graphics stack and visual identity**.
 
 ```text
 /system/
@@ -342,9 +362,9 @@ where appropriate.
 
 # ⚙️ DYNAMIC SETTINGS
 
-System configuration should not be hardcoded into applications.
+System configuration should not be hardcoded into individual applications.
 
-Gorgon will have a centralized settings architecture:
+Gorgon will use a centralized settings architecture:
 
 ```text
                  SETTINGS APP
@@ -382,8 +402,6 @@ Changes should be applied **live without restarting the desktop** whenever pract
 
 # 🖼️ GORGON GRAPHICS ARCHITECTURE
 
-The compositor should sit between applications and the actual display hardware.
-
 ```text
 APPLICATION
      │
@@ -408,15 +426,13 @@ RENDERER
 VIRTIO-GPU / PHYSICAL GPU
 ```
 
-The goal is to avoid making every application directly manipulate raw framebuffer memory.
+Applications should interact with managed window surfaces rather than directly manipulating raw framebuffer memory.
 
-SDL2 can still be ported later as a **userspace library/compatibility layer**, but it is not the foundation of Gorgon's graphics architecture.
+SDL2 may eventually be ported as a **userspace library/compatibility layer**, but it is not the foundation of Gorgon's graphics architecture.
 
 ---
 
 # 💾 STORAGE & USERSPACE
-
-Gorgon will eventually provide:
 
 ```text
 Application
@@ -454,11 +470,12 @@ Gorgon will eventually include a lightweight isolation system inspired by concep
 * FreeBSD Jails
 * `chroot`
 * Process isolation
-* Filesystem namespaces
+* Filesystem isolation
 * Resource limits
 * Permission boundaries
+* IPC/network restrictions
 
-The goal is a lightweight **Gorgon sandbox/container subsystem**, not simply a `chroot` wrapper.
+The goal is a genuine **Gorgon sandbox/container subsystem**, not simply a `chroot` wrapper.
 
 ```text
 GORGON KERNEL
@@ -474,9 +491,9 @@ GORGON KERNEL
              Isolation    Isolation
 ```
 
-Containers share the Gorgon kernel.
+**Containers share the Gorgon kernel.**
 
-Virtual machines have their own kernels.
+**Virtual machines have their own kernels.**
 
 ---
 
@@ -493,16 +510,14 @@ The long-term userspace environment is intended to support:
                    │
           ┌────────┼────────┐
           ▼        ▼        ▼
-       Python    Web     Media
-                  Engine
+       Python     Web     Media
+                 Engine
                    │
                    ▼
               Chromium
 ```
 
-The order matters.
-
-Rather than attempting Chromium immediately, the system will first establish:
+The order matters:
 
 **Networking → Graphics → Window System → Runtime → Dynamic Linking → Linux Compatibility → Chromium**
 
@@ -512,7 +527,7 @@ Chromium is intended to become a major **real-world validation target** for the 
 
 # 🖥️ PHYSICAL HARDWARE
 
-QEMU/KVM is the development environment — **not Gorgon's hardware dependency**.
+QEMU/KVM is the **development and virtualization environment**, not Gorgon's hardware dependency.
 
 The architecture is intended to eventually support real x86-64 machines.
 
@@ -547,6 +562,83 @@ The driver architecture will eventually cover areas such as:
 **UEFI is the primary modern physical boot target**, with legacy BIOS/CSM potentially supported as an additional path.
 
 The long-term goal is to boot Gorgon from **USB and physical storage**, not only inside QEMU.
+
+---
+
+# 🐧 PHASE 3 — GORGON LINUX
+
+**Separate repository · Linux kernel · Linux distribution**
+
+Phase 3 is another completely separate project.
+
+It is **not the continuation of the Phase 2 kernel.**
+
+Instead, Phase 3 asks a different question:
+
+> **Can I build a practical Linux distribution around the ideas, tools, UX and engineering experience developed through the earlier projects?**
+
+```text
+┌─────────────────────────────────────────┐
+│              GORGON LINUX               │
+├─────────────────────────────────────────┤
+│                                         │
+│          LINUX KERNEL                   │
+│                │                        │
+│       ┌────────┴────────┐               │
+│       ▼                 ▼               │
+│ GENERAL PURPOSE      SECURITY           │
+│ ECOSYSTEM            TOOLING            │
+│       │                 │               │
+│ Ubuntu / Debian      Kali ecosystem     │
+│       │                 │               │
+│       └────────┬────────┘               │
+│                ▼                        │
+│        GORGON EXPERIENCE                │
+│                                         │
+│  Desktop / UX                           │
+│  Custom Services                        │
+│  Developer Tooling                      │
+│  AI / ML Tooling                        │
+│  Robotics Tooling                       │
+│  Security Tooling                       │
+│  Automation                             │
+│                                         │
+└─────────────────────────────────────────┘
+```
+
+The exact implementation and package architecture will evolve as the project develops.
+
+The important distinction is:
+
+```text
+PHASE 1
+Python / Pygame
+VirtualOS Simulator
+        │
+        │  separate project
+        ▼
+PHASE 2
+C / C++ / Assembly
+Gorgon Kernel
+Real Operating System
+        │
+        │  separate project
+        ▼
+PHASE 3
+Linux Kernel
+Gorgon Linux
+Practical Linux Distribution
+```
+
+### Three phases. Three repositories. Three systems.
+
+| Phase       | System           | Core Technology    | Purpose                              |
+| ----------- | ---------------- | ------------------ | ------------------------------------ |
+| **Phase 1** | Gorgon VirtualOS | Python / Pygame    | Simulate and explore OS UX           |
+| **Phase 2** | Gorgon OS        | C / C++ / Assembly | Build a real operating system        |
+| **Phase 3** | Gorgon Linux     | Linux Kernel       | Build a practical Linux distribution |
+
+They are connected by a **long-term engineering vision**, not by being successive versions of the same codebase.
 
 ---
 
@@ -598,7 +690,7 @@ The long-term goal is to boot Gorgon from **USB and physical storage**, not only
 │  > Advanced C                              │
 │  > C++                                     │
 │  > Assembly                                │
-│  > Computer Architecture                   │  
+│  > Computer Architecture                   │
 │  > Operating System Development            │
 │  > Linux System Programming                │
 │  > QEMU / KVM Virtualization               │
@@ -621,15 +713,17 @@ The long-term goal is to boot Gorgon from **USB and physical storage**, not only
 
 # 🚀 PROJECTS
 
-| Project                         | Description                                                                                          |
-| ------------------------------- | ---------------------------------------------------------------------------------------------------- |
-| 🖥️ [**Gorgon simulator**](https://github.com/Soala7/Gorgon-OS-Virtual-Simulator) | A Python simulator into a bootable x86-64 operating system |
-| 🌌 **Project Hollow**           | Long-term exploration of intelligent, secure and developer-focused computing environments            |
-| 🐍 [**AI Snake**](https://github.com/Soala7/Snake-AI) | Reinforcement-learning Snake agent using Deep Q-Learning                                             |
-| ♟️ [**Python Chess**](https://github.com/Soala7/Chess-game-2.0) | Chess application exploring game logic and AI                                                        |
-| 🎓 **School Management System** | Student records, grading and academic management                                                     |
-| 🤖 **AI Projects**              | Machine learning, computer vision and intelligent-system experiments                                 |
-| 🔧 **Electronics Projects**     | Embedded systems and hardware experimentation                                                        |
+| Project                                                                           | Description                                                                                                                |
+| --------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
+| 🖥️ [**Gorgon VirtualOS**](https://github.com/Soala7/Gorgon-OS-Virtual-Simulator) | Python/Pygame operating-system simulator exploring desktop UX, virtual filesystems, applications and system interaction    |
+| ⚙️ **Gorgon OS**                                                                  | Separate real operating-system project focused on bootloaders, kernel development, x86-64, drivers, userspace and hardware |
+| 🐧 **Gorgon Linux**                                                               | Separate Linux distribution project combining general-purpose Linux, security tooling and the Gorgon ecosystem             |
+| 🌌 **Project Hollow**                                                             | Long-term exploration of intelligent, secure and developer-focused computing environments                                  |
+| 🐍 [**AI Snake**](https://github.com/Soala7/Snake-AI)                             | Reinforcement-learning Snake agent using Deep Q-Learning                                                                   |
+| ♟️ [**Python Chess**](https://github.com/Soala7/Chess-game-2.0)                   | Chess application exploring game logic and AI                                                                              |
+| 🎓 **School Management System**                                                   | Student records, grading and academic management                                                                           |
+| 🤖 **AI Projects**                                                                | Machine learning, computer vision and intelligent-system experiments                                                       |
+| 🔧 **Electronics Projects**                                                       | Embedded systems and hardware experimentation                                                                              |
 
 ---
 
@@ -669,6 +763,7 @@ The long-term goal is to boot Gorgon from **USB and physical storage**, not only
  FUTURE
  │
  ├── Advanced OS Development
+ ├── Gorgon Linux
  ├── Robotics
  ├── AI
  ├── Embedded Systems
@@ -783,11 +878,11 @@ They're **one integrated system**.
 
 <br>
 
-**If it can be done i'll do it.**
+**If it can be done, I'll do it.**
 
 <br>
 
-<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=18&duration=2500&pause=800&color=00BFFF&center=true&vCenter=true&width=800&lines=Software+%E2%86%92+Systems+%E2%86%92+Hardware;AI+%E2%86%92+Embedded+%E2%86%92+Robotics;Learning+%E2%86%92+Building+%E2%86%92+Understanding;The+journey+is+just+beginning."/>
+<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=18&duration=2500&pause=800&color=00BFFF&center=true&vCenter=true&width=800&lines=Software+%E2%86%92+Systems+%E2%86%92+Hardware;AI+%E2%86%92+Embedded+%E2%86%92+Robotics;Simulation+%E2%86%92+Operating+System+%E2%86%92+Linux;Learning+%E2%86%92+Building+%E2%86%92+Understanding;The+journey+is+just+beginning."/>
 
 <br><br>
 
